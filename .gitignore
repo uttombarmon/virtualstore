@@ -7,24 +7,27 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
-client/.env*
-server/.env*
+/frontend/.env*
+backend/.env*
 # local env files
 .env.local
 .env.development.local
 
 # vercel
-/client/.vercel
+.vercel
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
 # Client
-client/node_modules
-client/.next
-client/out
+node_modules
+.next
+out
 
 # Server
+node_modules
+dist
+build
 server/node_modules
 
 # Common
