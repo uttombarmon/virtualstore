@@ -5,8 +5,9 @@ import UserType from "../../types/UserType";
 const routerUser = express.Router();
 
 routerUser.get("/", async (req: Request, res: Response) => {
+  const { email } = req.body;
   try {
-    const users = await User.find();
+    const users = await User.findOne({ email: email });
     res.json(users);
   } catch (error) {
     res.status(500).json({ message: "Error fetching users" });

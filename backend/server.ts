@@ -2,6 +2,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import express, { Request, Response } from "express";
 import { dbConnect } from "./configs/db";
+import routerAuth from "./routes/jwt/authRoute";
 import routerUser from "./routes/user/userRoutes";
 
 const app = express();
@@ -11,7 +12,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 const port = process.env.PORT || 5000;
 
-app.use("/user/", routerUser);
+app.use("/api/v1/user/", routerUser);
+app.use("/api/v1/auth/", routerAuth);
 
 app.get("/", (req: Request, res: Response) => {
   res.send("Hello World from TypeScript Express Server!");
