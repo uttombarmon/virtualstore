@@ -46,15 +46,15 @@ routerUser.post("/", async (req: Request, res: Response) => {
 routerUser.patch("/edit", async (req: Request, res: Response) => {
   const { id, data } = req.body;
   if (!data) {
-    res.status(301).json({ result: "Not found any changes!" });
+    res.status(304).json({ result: "Not found any changes!" });
   }
   try {
     const result = await User.findById(id).updateOne(data);
     if (!result.acknowledged && result.modifiedCount! > 0) {
-      res.status(200).json({ result: "Updated failed!" });
+      res.status(304).json({ error: "Updated failed!" });
     }
     console.log(result);
-    res.status(200).json(result);
+    res.status(204).json(result);
   } catch (error) {
     console.log(error);
     res.status(500).json({ error: error });

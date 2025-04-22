@@ -36,4 +36,22 @@ routerProduct.get("/:id", async (req: Request, res: Response) => {
   res.status(200).json({ id: id });
 });
 
+// product edit api
+routerProduct.patch("/edit", async (req: Request, res: Response) => {
+  const { id, data } = req.body;
+  if (!data) {
+    res.status(301).json({ error: "Data not changes" });
+  }
+  try {
+    const result = await ProductS.findById(id).updateOne(data);
+    if (!result.acknowledged && result.modifiedCount! > 0) {
+      res.status(304).json({ error: "Update failed!" });
+    }
+    res.status(204).json(result);
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ error: "Internal Server Error!" });
+  }
+});
+
 export default routerProduct;
