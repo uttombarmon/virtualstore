@@ -3,6 +3,7 @@ export default interface UserType {
   username: string;
   email: string;
   password: string;
+  orders: string[];
   createdAt: Date;
   updatedAt: Date;
   isAdmin: boolean;

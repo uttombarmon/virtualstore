@@ -16,14 +16,10 @@ const userSchema = new Schema<UserType>(
       type: String,
       required: true,
     },
-    createdAt: {
-      type: Date,
-      default: Date.now,
-    },
-    updatedAt: {
-      type: Date,
-      default: Date.now,
-    },
+      orders:{
+        type: [String],
+        default: [],
+      },
     isAdmin: {
       type: Boolean,
       default: false,

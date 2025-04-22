@@ -1,0 +1,39 @@
+import { Request, Response, Router } from "express";
+import ProductS from "../../models/Product";
+import PTypes from "../../types/PTypes";
+
+const routerProduct = Router();
+// product add api
+routerProduct.post("/", async (req: Request, res: Response) => {
+  const productData: PTypes = req.body;
+  if (!productData) {
+    res.status(204).json({ error: "Data's missing" });
+  }
+  try {
+    const result = await ProductS.create(productData);
+    console.log(result);
+    res.status(200).json({ data: "Product successfully added!" });
+  } catch (error) {
+    console.log("Product Insert:", error);
+    res.status(500).json({ error: error });
+  }
+});
+
+//a product get api
+routerProduct.get("/:id", async (req: Request, res: Response) => {
+  const { id } = req.params;
+  console.log(id);
+  try {
+    const product: PTypes | null = await ProductS.findById(id);
+    if (!product || product === null) {
+      res.status(203).json({ error: "Not Found Data!" });
+    }
+    res.status(200).json({ product: product });
+  } catch (error) {
+    console.log("product get api:", error);
+    res.status(500).json({ error: "Internal Server Error!" });
+  }
+  res.status(200).json({ id: id });
+});
+
+export default routerProduct;
