@@ -4,6 +4,7 @@ import User from "../../models/User";
 import UserType from "../../types/UserType";
 const routerUser = express.Router();
 
+// user get api
 routerUser.get("/", async (req: Request, res: Response) => {
   const { email } = req.body;
   try {
@@ -13,6 +14,7 @@ routerUser.get("/", async (req: Request, res: Response) => {
     res.status(500).json({ message: "Error fetching users" });
   }
 });
+// user create api
 routerUser.post("/", async (req: Request, res: Response) => {
   const { username, email, password } = req.body;
   const userExists = await User.findOne({ email: email });
@@ -37,6 +39,25 @@ routerUser.post("/", async (req: Request, res: Response) => {
   } catch (error) {
     console.log(`Cretere User:`, error);
     res.status(500).json({ message: "Error creating user" });
+  }
+});
+
+// user update api
+routerUser.patch("/edit", async (req: Request, res: Response) => {
+  const { id, data } = req.body;
+  if (!data) {
+    res.status(301).json({ result: "Not found any changes!" });
+  }
+  try {
+    const result = await User.findById(id).updateOne(data);
+    if (!result.acknowledged && result.modifiedCount! > 0) {
+      res.status(200).json({ result: "Updated failed!" });
+    }
+    console.log(result);
+    res.status(200).json(result);
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ error: error });
   }
 });
 
