@@ -1,11 +1,12 @@
 import bcrypt from "bcryptjs";
 import express, { Request, Response } from "express";
+import apiProtect from "../../middleware/apiProtected";
 import User from "../../models/User";
 import UserType from "../../types/UserType";
 const routerUser = express.Router();
 
 // user get api
-routerUser.get("/", async (req: Request, res: Response) => {
+routerUser.get("/", apiProtect, async (req: Request, res: Response) => {
   const { email } = req.body;
   try {
     const users = await User.findOne({ email: email });
@@ -43,7 +44,7 @@ routerUser.post("/", async (req: Request, res: Response) => {
 });
 
 // user update api
-routerUser.patch("/edit", async (req: Request, res: Response) => {
+routerUser.patch("/edit", apiProtect, async (req: Request, res: Response) => {
   const { id, data } = req.body;
   if (!data) {
     res.status(304).json({ result: "Not found any changes!" });
@@ -54,7 +55,7 @@ routerUser.patch("/edit", async (req: Request, res: Response) => {
       res.status(304).json({ error: "Updated failed!" });
     }
     console.log(result);
-    res.status(204).json(result);
+    res.status(204).json({ result: result });
   } catch (error) {
     console.log(error);
     res.status(500).json({ error: error });
