@@ -1,9 +1,29 @@
+import { GlobalStyles } from "@mui/material";
+import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
+import LinearProgress from "@mui/material/LinearProgress";
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Open_Sans } from "next/font/google";
+import {
+  Geist,
+  Geist_Mono,
+  Open_Sans,
+  Playfair_Display,
+  Playwrite_RO,
+} from "next/font/google";
+import React from "react";
 import "./globals.css";
 
+const playwritRO = Playwrite_RO({
+  variable: "--font-playwrite-RO",
+  display: "swap",
+});
+const playfairDisplay = Playfair_Display({
+  variable: "--font-playfair-display",
+  display: "swap",
+  subsets: ["latin"],
+});
 const openSans = Open_Sans({
   variable: "--font-open-sans",
+  display: "swap",
   subsets: ["latin"],
 });
 const geistSans = Geist({
@@ -53,9 +73,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${openSans.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${openSans.variable} ${playfairDisplay.variable} ${playwritRO.variable} antialiased`}
       >
-        {children}
+        <AppRouterCacheProvider options={{ enableCssLayer: true }}>
+          <GlobalStyles styles="@layer theme,base,mui,components,utilities;" />
+          <React.Suspense fallback={<LinearProgress />}>
+            {children}
+          </React.Suspense>
+        </AppRouterCacheProvider>
       </body>
     </html>
   );
