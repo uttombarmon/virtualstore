@@ -28,6 +28,7 @@
 //     "Discover a wide range of products online at Virtual Store, your trusted e-commerce destination in Bangladesh. Enjoy convenient shopping and secure delivery right to your doorstep in Dinajpur and across the nation.",
 
 import Navbar from "@/components/shared/Navbar";
+import ShortNavbar from "@/components/shared/ShortNavbar.tsx/ShortNavbar";
 
 // };
 export default function CommonLayout({
@@ -37,7 +38,8 @@ export default function CommonLayout({
 }) {
   return (
     <div>
-      <div>
+      <div className=" flex flex-wrap flex-col justify-center items-center">
+        <ShortNavbar />
         <Navbar />
       </div>
       {children}
