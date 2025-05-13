@@ -28,7 +28,6 @@
 //     "Discover a wide range of products online at Virtual Store, your trusted e-commerce destination in Bangladesh. Enjoy convenient shopping and secure delivery right to your doorstep in Dinajpur and across the nation.",
 
 import Navbar from "@/components/shared/Navbar";
-import ShortNavbar from "@/components/shared/ShortNavbar.tsx/ShortNavbar";
 
 // };
 export default function CommonLayout({
@@ -37,12 +36,11 @@ export default function CommonLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div>
-      <div className=" flex flex-wrap flex-col justify-center items-center">
-        <ShortNavbar />
+    <div className=" relative">
+      <div className=" flex flex-wrap flex-col justify-center items-center relative">
         <Navbar />
       </div>
-      {children}
+      <div className=" relative top-16">{children}</div>
     </div>
   );
 }

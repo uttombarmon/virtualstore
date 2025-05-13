@@ -4,13 +4,14 @@ import { Search } from "@mui/icons-material";
 import { alpha, AppBar, Box, InputBase, styled, Toolbar } from "@mui/material";
 import { motion } from "motion/react";
 import Image from "next/image";
-import Link from "next/link";
+import MenuButton from "./Navbar/MenuButton";
+import MenuLink from "./Navbar/MenuLink";
 const SearchC = styled("div")(({ theme }) => ({
   position: "relative",
   borderRadius: theme.shape.borderRadius,
-  backgroundColor: alpha(theme.palette.common.white, 0.15),
+  backgroundColor: alpha(theme.palette.common.black, 0.15),
   "&:hover": {
-    backgroundColor: alpha(theme.palette.common.white, 0.25),
+    backgroundColor: alpha(theme.palette.common.black, 0.25),
   },
   marginLeft: 0,
   width: "100%",
@@ -52,30 +53,17 @@ export default function Navbar() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.8 }}
     >
-      <Box sx={{ flexGrow: 1 }}>
+      <Box sx={{ flexGrow: 1 }} className="">
         <AppBar className=" bg-amber-200">
-          <Toolbar className="bg-blue-300/40 flex justify-between">
+          <Toolbar className=" bg-white flex justify-between text-black">
             <div>
               <Image
                 src={logo}
                 alt="Virtual Store Logo"
-                className=" font-[family-name:var(--font-open-sans)] font-bold text-lg h-10 w-20"
+                className=" font-[family-name:var(--font-open-sans)] font-bold text-lg h-12 w-24 bg-cover"
               />
             </div>
-            <ul>
-              <Link href={"/"} className=" px-4 py-2 ">
-                Categories
-              </Link>
-              <Link href={"/"} className=" px-4 py-2 ">
-                Fashion
-              </Link>
-              <Link href={"/"} className=" px-4 py-2 ">
-                Gloserice
-              </Link>
-              <Link href={"/"} className=" px-4 py-2 ">
-                Electronics
-              </Link>
-            </ul>
+            <MenuLink />
             <SearchC>
               <SearchIconWrapper>
                 <Search />
@@ -85,6 +73,7 @@ export default function Navbar() {
                 inputProps={{ "aria-label": "search" }}
               />
             </SearchC>
+            <MenuButton />
           </Toolbar>
         </AppBar>
       </Box>
