@@ -1,0 +1,484 @@
+[
+  {
+    "product_id": "levis-501-original-fit-jeans",
+    "category": "Clothing",
+    "subcategory": "Jeans",
+    "name": "Levi's 501 Original Fit Jeans",
+    "description": "The iconic 501 jeans with a straight fit, made from 100% cotton for a classic, rigid feel.  Available in a variety of washes and inseam lengths.",
+    "price": 63.6,
+    "currency": "USD",
+    "stock_quantity": 150,
+    "images": [
+      {
+        "url": "https://example.com/levis-501-front.jpg",
+        "alt": "Levi's 501 Original Fit Jeans Front"
+      },
+      {
+        "url": "https://example.com/levis-501-back.jpg",
+        "alt": "Levi's 501 Original Fit Jeans Back"
+      },
+      {
+        "url": "https://example.com/levis-501-detail.jpg",
+        "alt": "Levi's 501 Original Fit Jeans Detail"
+      }
+    ],
+    "specifications": {
+      "fabric": "100% Cotton",
+      "fit": "Straight",
+      "rise": "High Rise",
+      "closure": "Button Fly",
+      "inseam": ["30", "32", "34", "36"],
+      "leg_opening": "16.75 inches"
+    },
+    "brand": "Levi's",
+    "color": ["Dark Wash", "Medium Wash", "Light Wash", "Black"],
+    "sizes": [
+      "28x30",
+      "29x30",
+      "30x30",
+      "31x32",
+      "32x32",
+      "33x34",
+      "34x34",
+      "36x36"
+    ],
+    "variants": [],
+    "reviews": [
+      {
+        "user": "John Doe",
+        "rating": 5,
+        "comment": "Classic fit, great quality denim."
+      },
+      {
+        "user": "Jane Smith",
+        "rating": 4,
+        "comment": "Love the high rise, but they're a bit stiff at first."
+      }
+    ],
+    "related_products": ["levis-trucker-jacket", "converse-chuck-taylor"],
+    "on_sale": true
+  },
+  {
+    "product_id": "adidas-originals-trefoil-hoodie",
+    "category": "Clothing",
+    "subcategory": "Hoodies & Sweatshirts",
+    "name": "Adidas Originals Trefoil Hoodie",
+    "description": "A classic, comfortable hoodie featuring the iconic Adidas Trefoil logo.  Perfect for casual wear.",
+    "price": 70.0,
+    "currency": "USD",
+    "stock_quantity": 120,
+    "images": [
+      {
+        "url": "https://example.com/adidas-trefoil-hoodie-front.jpg",
+        "alt": "Adidas Originals Trefoil Hoodie Front"
+      },
+      {
+        "url": "https://example.com/adidas-trefoil-hoodie-side.jpg",
+        "alt": "Adidas Originals Trefoil Hoodie Side"
+      },
+      {
+        "url": "https://example.com/adidas-trefoil-hoodie-detail.jpg",
+        "alt": "Adidas Originals Trefoil Hoodie Detail"
+      }
+    ],
+    "specifications": {
+      "fabric": "70% Cotton, 30% Recycled Polyester Fleece",
+      "fit": "Regular Fit",
+      "sleeve_length": "Long Sleeve",
+      "closure": "Pullover",
+      "hood_type": "Drawstring Hood",
+      "pocket_type": "Kangaroo Pocket"
+    },
+    "brand": "Adidas Originals",
+    "color": ["Black", "Medium Grey Heather", "Scarlet", "Royal Blue"],
+    "sizes": ["XS", "S", "M", "L", "XL", "2XL"],
+    "variants": [],
+    "reviews": [
+      {
+        "user": "Alex K.",
+        "rating": 5,
+        "comment": "Super comfortable and fits great.  Love the classic look."
+      },
+      {
+        "user": "Sarah M.",
+        "rating": 4,
+        "comment": "Good quality, but the sizing runs a little large."
+      }
+    ],
+    "related_products": ["adidas-superstar", "adidas-track-pants"],
+    "on_sale": false
+  },
+  {
+    "product_id": "nike-air-force-1-07",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "name": "Nike Air Force 1 '07",
+    "description": "The classic Nike Air Force 1 '07, a basketball icon turned streetwear staple.  Clean lines and crisp leather.",
+    "price": 88.0,
+    "currency": "USD",
+    "stock_quantity": 100,
+    "images": [
+      {
+        "url": "https://example.com/nike-air-force-1-white.jpg",
+        "alt": "Nike Air Force 1 '07 White"
+      },
+      {
+        "url": "https://example.com/nike-air-force-1-black.jpg",
+        "alt": "Nike Air Force 1 '07 Black"
+      },
+      {
+        "url": "https://example.com/nike-air-force-1-detail.jpg",
+        "alt": "Nike Air Force 1 '07 Detail"
+      }
+    ],
+    "specifications": {
+      "material": "Leather Upper",
+      "outsole_material": "Rubber",
+      "closure": "Lace-up",
+      "style": "Low Top",
+      "features": ["Perforated Toe", "Padded Collar"]
+    },
+    "brand": "Nike",
+    "color": ["White", "Black", "Midnight Navy"],
+    "sizes": [
+      "7",
+      "7.5",
+      "8",
+      "8.5",
+      "9",
+      "9.5",
+      "10",
+      "10.5",
+      "11",
+      "11.5",
+      "12",
+      "13"
+    ],
+    "variants": [],
+    "reviews": [
+      {
+        "user": "Mike J.",
+        "rating": 5,
+        "comment": "Timeless classic.  Goes with everything."
+      },
+      {
+        "user": "Jessica L.",
+        "rating": 5,
+        "comment": "Great quality and very comfortable for all-day wear."
+      }
+    ],
+    "related_products": ["nike-air-max-90", "nike-blazer"],
+    "on_sale": true
+  },
+  {
+    "product_id": "ray-ban-aviator-classic",
+    "category": "Accessories",
+    "subcategory": "Sunglasses",
+    "name": "Ray-Ban Aviator Classic",
+    "description": "The iconic Ray-Ban Aviator Classic sunglasses, with their teardrop-shaped lenses and timeless style.  A symbol of cool.",
+    "price": 163.0,
+    "currency": "USD",
+    "stock_quantity": 80,
+    "images": [
+      {
+        "url": "https://example.com/rayban-aviator-gold-green.jpg",
+        "alt": "Ray-Ban Aviator Classic Gold/Green"
+      },
+      {
+        "url": "https://example.com/rayban-aviator-silver-grey.jpg",
+        "alt": "Ray-Ban Aviator Classic Silver/Grey"
+      },
+      {
+        "url": "https://example.com/rayban-aviator-detail.jpg",
+        "alt": "Ray-Ban Aviator Classic Detail"
+      }
+    ],
+    "specifications": {
+      "frame_material": "Metal",
+      "lens_material": "Glass",
+      "lens_color": ["Green Classic G-15", "Grey"],
+      "frame_color": ["Gold", "Silver", "Black"],
+      "protection": "100% UV Protection",
+      "style": "Aviator",
+      "temple_length": "135mm",
+      "lens_width": "58mm"
+    },
+    "brand": "Ray-Ban",
+    "color": ["Gold/Green", "Silver/Grey", "Black/Grey"],
+    "sizes": ["58mm", "62mm"],
+    "variants": [],
+    "reviews": [
+      {
+        "user": "Bob S.",
+        "rating": 5,
+        "comment": "The classic Aviators.  Always in style."
+      },
+      {
+        "user": "Alice R.",
+        "rating": 4,
+        "comment": "Great quality, but the fit can be tricky for some face shapes."
+      }
+    ],
+    "related_products": ["ray-ban-wayfarer", "oakley-sunglasses"],
+    "on_sale": false
+  },
+  {
+    "product_id": "michael-kors-jet-set-travel-tote",
+    "category": "Accessories",
+    "subcategory": "Totes",
+    "name": "Michael Kors Jet Set Travel Tote",
+    "description": "A stylish and spacious tote bag crafted from signature Saffiano leather.  Perfect for travel or everyday use.",
+    "price": 298.0,
+    "currency": "USD",
+    "stock_quantity": 60,
+    "images": [
+      {
+        "url": "https://example.com/michael-kors-tote-black.jpg",
+        "alt": "Michael Kors Jet Set Travel Tote Black"
+      },
+      {
+        "url": "https://example.com/michael-kors-tote-brown.jpg",
+        "alt": "Michael Kors Jet Set Travel Tote Brown"
+      },
+      {
+        "url": "https://example.com/michael-kors-tote-detail.jpg",
+        "alt": "Michael Kors Jet Set Travel Tote Detail"
+      }
+    ],
+    "specifications": {
+      "material": "Saffiano Leather",
+      "closure": "Zip-Top Closure",
+      "dimensions": "16.5\"L x 10.25\"H x 6\"W",
+      "handle_drop": "9\"",
+      "interior_pockets": "1 Zip Pocket, 2 Slip Pockets",
+      "exterior_details": "Signature Logo Charm"
+    },
+    "brand": "Michael Kors",
+    "color": ["Black", "Brown", "Navy", "Powder Blush"],
+    "variants": [],
+    "reviews": [
+      {
+        "user": "Laura G.",
+        "rating": 5,
+        "comment": "Love this tote!  It's so roomy and stylish."
+      },
+      {
+        "user": "Emily P.",
+        "rating": 4,
+        "comment": "Great quality, but wish it had a shoulder strap."
+      }
+    ],
+    "related_products": ["michael-kors-wallet", "coach-tote"],
+    "on_sale": false
+  },
+  {
+    "product_id": "jcrew-classic-cashmere-sweater",
+    "category": "Clothing",
+    "subcategory": "Sweaters",
+    "name": "J.Crew Classic Cashmere Sweater",
+    "description": "A luxuriously soft and timeless cashmere sweater.  An essential for any wardrobe.",
+    "price": 128.0,
+    "currency": "USD",
+    "stock_quantity": 45,
+    "images": [
+      {
+        "url": "https://example.com/jcrew-cashmere-sweater-heather-grey.jpg",
+        "alt": "J.Crew Classic Cashmere Sweater Heather Grey"
+      },
+      {
+        "url": "https://example.com/jcrew-cashmere-sweater-navy.jpg",
+        "alt": "J.Crew Classic Cashmere Sweater Navy"
+      },
+      {
+        "url": "https://example.com/jcrew-cashmere-sweater-detail.jpg",
+        "alt": "J.Crew Classic Cashmere Sweater Detail"
+      }
+    ],
+    "specifications": {
+      "material": "100% Cashmere",
+      "fit": "Classic Fit",
+      "neckline": "Crew Neck",
+      "sleeve_length": "Long Sleeve",
+      "gauge": "12-gauge"
+    },
+    "brand": "J.Crew",
+    "color": ["Heather Grey", "Navy", "Black", "Camel", "Burgundy"],
+    "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+    "variants": [],
+    "reviews": [
+      {
+        "user": "David C.",
+        "rating": 5,
+        "comment": "The perfect cashmere sweater.  So soft and well-made."
+      },
+      {
+        "user": "Susan H.",
+        "rating": 5,
+        "comment": "Great quality for the price.  I bought it in multiple colors."
+      }
+    ],
+    "related_products": ["jcrew-chinos", "jcrew-button-down"],
+    "on_sale": false
+  },
+  {
+    "product_id": "madewell-perfect-denim-jacket",
+    "category": "Clothing",
+    "subcategory": "Outerwear",
+    "name": "Madewell Perfect Denim Jacket",
+    "description": "A classic, slightly oversized denim jacket made from comfortable, durable denim.  The perfect layering piece.",
+    "price": 102.4,
+    "currency": "USD",
+    "stock_quantity": 55,
+    "images": [
+      {
+        "url": "https://example.com/madewell-denim-jacket-med-wash.jpg",
+        "alt": "Madewell Perfect Denim Jacket Medium Wash"
+      },
+      {
+        "url": "https://example.com/madewell-denim-jacket-dark-wash.jpg",
+        "alt": "Madewell Perfect Denim Jacket Dark Wash"
+      },
+      {
+        "url": "https://example.com/madewell-denim-jacket-detail.jpg",
+        "alt": "Madewell Perfect Denim Jacket Detail"
+      }
+    ],
+    "specifications": {
+      "material": "99% Cotton, 1% Elastane",
+      "fit": "Slightly Oversized",
+      "closure": "Button Front",
+      "sleeve_length": "Long Sleeve",
+      "pocket_type": "Chest Pockets, Side Pockets"
+    },
+    "brand": "Madewell",
+    "color": ["Medina Wash", "Dark Indigo Wash"],
+    "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+    "variants": [],
+    "reviews": [
+      {
+        "user": "Jennifer A.",
+        "rating": 5,
+        "comment": "The perfect denim jacket!  Great fit and quality."
+      },
+      {
+        "user": "Michelle Y.",
+        "rating": 4,
+        "comment": "Love the style, but it runs a little big."
+      }
+    ],
+    "related_products": ["madewell-jeans", "madewell-t-shirt"],
+    "on_sale": true
+  },
+  {
+    "product_id": "common-projects-achilles-low",
+    "category": "Footwear",
+    "subcategory": "Sneakers",
+    "name": "Common Projects Achilles Low",
+    "description": "Minimalist and luxurious leather sneakers, handcrafted in Italy.  Known for their clean design and high-quality materials.",
+    "price": 410.0,
+    "currency": "USD",
+    "stock_quantity": 20,
+    "images": [
+      {
+        "url": "https://example.com/common-projects-achilles-white.jpg",
+        "alt": "Common Projects Achilles Low White"
+      },
+      {
+        "url": "https://example.com/common-projects-achilles-black.jpg",
+        "alt": "Common Projects Achilles Low Black"
+      },
+      {
+        "url": "https://example.com/common-projects-achilles-detail.jpg",
+        "alt": "Common Projects Achilles Low Detail"
+      }
+    ],
+    "specifications": {
+      "material": "Italian Leather Upper",
+      "outsole_material": "Rubber",
+      "closure": "Lace-up",
+      "style": "Low Top",
+      "features": ["Gold Stamped Serial Number"]
+    },
+    "brand": "Common Projects",
+    "color": ["White", "Black", "Grey"],
+    "sizes": ["39", "40", "41", "42", "43", "44", "45"],
+    "variants": [],
+    "reviews": [
+      {
+        "user": "Kevin R.",
+        "rating": 5,
+        "comment": "The best sneakers I've ever owned.  Worth the investment."
+      },
+      {
+        "user": "Daniel P.",
+        "rating": 5,
+        "comment": "Clean, classic, and incredibly well-made."
+      }
+    ],
+    "related_products": ["saint-laurent-sneakers", "gucci-loafers"],
+    "on_sale": false
+  },
+  {
+    "product_id": "everlane-the-day-glove",
+    "category": "Footwear",
+    "subcategory": "Flats",
+    "name": "Everlane The Day Glove",
+    "description": "A comfortable and versatile leather flat, designed for all-day wear.  Made from soft Italian leather.",
+    "price": 115.0,
+    "currency": "USD",
+    "stock_quantity": 70,
+    "images": [
+      {
+        "url": "https://example.com/everlane-day-glove-black.jpg",
+        "alt": "Everlane The Day Glove Black"
+      },
+      {
+        "url": "https://example.com/everlane-day-glove-nude.jpg",
+        "alt": "Everlane The Day Glove Nude"
+      },
+      {
+        "url": "https://example.com/everlane-day-glove-detail.jpg",
+        "alt": "Everlane The Day Glove Detail"
+      }
+    ],
+    "specifications": {
+      "material": "Italian Leather Upper",
+      "outsole_material": "Rubber",
+      "closure": "Slip-on",
+      "style": "Flat",
+      "features": ["Elasticized Back", "Cushioned Insole"]
+    },
+    "brand": "Everlane",
+    "color": ["Black", "Nude", "Red", "Mustard"],
+    "sizes": [
+      "5",
+      "5.5",
+      "6",
+      "6.5",
+      "7",
+      "7.5",
+      "8",
+      "8.5",
+      "9",
+      "9.5",
+      "10",
+      "10.5",
+      "11"
+    ],
+    "variants": [],
+    "reviews": [
+      {
+        "user": "Emily R.",
+        "rating": 5,
+        "comment": "The most comfortable flats I've ever worn!"
+      },
+      {
+        "user": "Jessica B.",
+        "rating": 4,
+        "comment": "Great for work, but they run a little small."
+      }
+    ],
+    "related_products": ["everlane-loafer", "everlane-tote"],
+    "on_sale": false
+  }
+]

@@ -1,0 +1,442 @@
+[
+  {
+    "product_id": "apple-iphone-15-pro",
+    "name": "Apple iPhone 15 Pro",
+    "price": 999.0,
+    "currency": "USD",
+    "reviews": [
+      { "user": "John Doe", "rating": 5, "comment": "Excellent phone!" },
+      {
+        "user": "Jane Smith",
+        "rating": 4,
+        "comment": "Great features, but pricey."
+      }
+    ]
+  },
+  {
+    "product_id": "samsung-galaxy-s23",
+    "name": "Samsung Galaxy S23",
+    "price": 799.0,
+    "currency": "USD",
+    "reviews": [
+      {
+        "user": "David Lee",
+        "rating": 4,
+        "comment": "Good performance and camera."
+      },
+      { "user": "Sarah Kim", "rating": 3, "comment": "Average battery life." }
+    ]
+  },
+  {
+    "product_id": "sony-wh-1000xm5",
+    "name": "Sony WH-1000XM5",
+    "price": 349.0,
+    "currency": "USD",
+    "reviews": [
+      {
+        "user": "Michael Brown",
+        "rating": 5,
+        "comment": "Best noise-cancelling headphones!"
+      },
+      {
+        "user": "Emily Wilson",
+        "rating": 5,
+        "comment": "Amazing sound quality."
+      }
+    ]
+  },
+  {
+    "product_id": "canon-eos-r6-mark-ii",
+    "name": "Canon EOS R6 Mark II",
+    "price": 2499.0,
+    "currency": "USD",
+    "reviews": [
+      {
+        "user": "Robert Green",
+        "rating": 5,
+        "comment": "Great camera for photography."
+      },
+      {
+        "user": "Linda White",
+        "rating": 4,
+        "comment": "Excellent image quality."
+      }
+    ]
+  },
+  {
+    "product_id": "lg-oled-c3",
+    "name": "LG OLED C3",
+    "price": 1799.0,
+    "currency": "USD",
+    "reviews": [
+      {
+        "user": "James Black",
+        "rating": 5,
+        "comment": "Best TV I have ever owned!"
+      },
+      {
+        "user": "Mary Blue",
+        "rating": 5,
+        "comment": "Perfect picture and sound."
+      }
+    ]
+  },
+  {
+    "product_id": "dell-xps-15",
+    "name": "Dell XPS 15",
+    "price": 1999.0,
+    "currency": "USD",
+    "reviews": [
+      {
+        "user": "William Red",
+        "rating": 4,
+        "comment": "Powerful and portable."
+      },
+      {
+        "user": "Jennifer Pink",
+        "rating": 4,
+        "comment": "Great for development."
+      }
+    ]
+  },
+  {
+    "product_id": "nintendo-switch-oled",
+    "name": "Nintendo Switch OLED",
+    "price": 349.0,
+    "currency": "USD",
+    "reviews": [
+      {
+        "user": "Charles Grey",
+        "rating": 5,
+        "comment": "Amazing handheld console."
+      },
+      {
+        "user": "Patricia Purple",
+        "rating": 4,
+        "comment": "Love the OLED screen."
+      }
+    ]
+  },
+  {
+    "product_id": "bose-quietcomfort-45",
+    "name": "Bose QuietComfort 45",
+    "price": 329.0,
+    "currency": "USD",
+    "reviews": [
+      {
+        "user": "Christopher Yellow",
+        "rating": 4,
+        "comment": "Very comfortable headphones."
+      },
+      {
+        "user": "Angela Orange",
+        "rating": 4,
+        "comment": "Good noise cancellation."
+      }
+    ]
+  },
+  {
+    "product_id": "fitbit-charge-5",
+    "name": "Fitbit Charge 5",
+    "price": 179.0,
+    "currency": "USD",
+    "reviews": [
+      {
+        "user": "Justin Lime",
+        "rating": 3,
+        "comment": "Decent fitness tracker."
+      },
+      {
+        "user": "Nicole Teal",
+        "rating": 3,
+        "comment": "Battery life could be better."
+      }
+    ]
+  },
+  {
+    "product_id": "kitchenaid-artisan-mixer",
+    "name": "KitchenAid Artisan Stand Mixer",
+    "price": 449.0,
+    "currency": "USD",
+    "reviews": [
+      {
+        "user": "Brandon Bronze",
+        "rating": 5,
+        "comment": "A kitchen essential!"
+      },
+      {
+        "user": "Stephanie Silver",
+        "rating": 5,
+        "comment": "Love baking with this mixer."
+      }
+    ]
+  },
+  {
+    "product_id": "google-pixel-8",
+    "name": "Google Pixel 8",
+    "price": 699.0,
+    "currency": "USD",
+    "reviews": [
+      {
+        "user": "Timothy Copper",
+        "rating": 4,
+        "comment": "Great camera and software."
+      },
+      {
+        "user": "Michelle Pearl",
+        "rating": 4,
+        "comment": "Smooth performance."
+      }
+    ]
+  },
+  {
+    "product_id": "oneplus-11",
+    "name": "OnePlus 11",
+    "price": 699.0,
+    "currency": "USD",
+    "reviews": [
+      {
+        "user": "Gary Tan",
+        "rating": 4,
+        "comment": "Fast charging and good display"
+      },
+      {
+        "user": "Wendy Plum",
+        "rating": 4,
+        "comment": "Good value for the price"
+      }
+    ]
+  },
+  {
+    "product_id": "xiaomi-13-pro",
+    "name": "Xiaomi 13 Pro",
+    "price": 899.0,
+    "currency": "USD",
+    "reviews": [
+      {
+        "user": "Henry Mauve",
+        "rating": 4,
+        "comment": "Excellent camera system"
+      },
+      {
+        "user": "Olivia Orchid",
+        "rating": 4,
+        "comment": "Premium build quality"
+      }
+    ]
+  },
+  {
+    "product_id": "panasonic-tx-65mzl2000",
+    "name": "Panasonic TX-65MZL2000",
+    "price": 3499.0,
+    "currency": "USD",
+    "reviews": [
+      {
+        "user": "Isaac Teal",
+        "rating": 5,
+        "comment": "Top-tier picture quality"
+      },
+      {
+        "user": "Uma Umber",
+        "rating": 5,
+        "comment": "Immersive viewing experience"
+      }
+    ]
+  },
+  {
+    "product_id": "hisense-65u8k",
+    "name": "Hisense 65U8K",
+    "price": 1299.0,
+    "currency": "USD",
+    "reviews": [
+      {
+        "user": "Jasper Jade",
+        "rating": 4,
+        "comment": "Bright and vibrant display"
+      },
+      { "user": "Kylie Kiwi", "rating": 4, "comment": "Great value for money" }
+    ]
+  },
+  {
+    "product_id": "bose-soundbar-900",
+    "name": "Bose Soundbar 900",
+    "price": 899.0,
+    "currency": "USD",
+    "reviews": [
+      { "user": "Leo Lilac", "rating": 5, "comment": "Superior sound quality" },
+      {
+        "user": "Zara Zinc",
+        "rating": 5,
+        "comment": "Sleek design and easy setup"
+      }
+    ]
+  },
+  {
+    "product_id": "sony-ht-a7000",
+    "name": "Sony HT-A7000",
+    "price": 1399.0,
+    "currency": "USD",
+    "reviews": [
+      {
+        "user": "Nate Navy",
+        "rating": 5,
+        "comment": "Immersive audio experience"
+      },
+      {
+        "user": "Priya Pine",
+        "rating": 5,
+        "comment": "Excellent surround sound"
+      }
+    ]
+  },
+  {
+    "product_id": "sennheiser-momentum-4",
+    "name": "Sennheiser Momentum 4",
+    "price": 349.95,
+    "currency": "USD",
+    "reviews": [
+      {
+        "user": "Quinn Quartz",
+        "rating": 5,
+        "comment": "Exceptional sound clarity"
+      },
+      {
+        "user": "Rhea Ruby",
+        "rating": 5,
+        "comment": "Comfortable for long listening"
+      }
+    ]
+  },
+  {
+    "product_id": "apple-airpods-max",
+    "name": "Apple AirPods Max",
+    "price": 549.0,
+    "currency": "USD",
+    "reviews": [
+      {
+        "user": "Saul Sage",
+        "rating": 4,
+        "comment": "Premium build and sound"
+      },
+      {
+        "user": "Tina Taupe",
+        "rating": 4,
+        "comment": "Effective noise cancellation"
+      }
+    ]
+  },
+  {
+    "product_id": "bowers-wilkins-px8",
+    "name": "Bowers & Wilkins PX8",
+    "price": 699.0,
+    "currency": "USD",
+    "reviews": [
+      {
+        "user": "Victor Violet",
+        "rating": 5,
+        "comment": "Audiophile-grade sound"
+      },
+      {
+        "user": "Ursula Umber",
+        "rating": 5,
+        "comment": "Luxurious design and materials"
+      }
+    ]
+  },
+  {
+    "product_id": "garmin-fenix-7",
+    "name": "Garmin Fenix 7",
+    "price": 699.99,
+    "currency": "USD",
+    "reviews": [
+      {
+        "user": "Walter Wheat",
+        "rating": 4,
+        "comment": "Durable and feature-rich"
+      },
+      {
+        "user": "Yara Yellow",
+        "rating": 4,
+        "comment": "Excellent for outdoor activities"
+      }
+    ]
+  },
+  {
+    "product_id": "whoop-4.0",
+    "name": "Whoop 4.0",
+    "price": 0.0,
+    "currency": "USD",
+    "reviews": [
+      {
+        "user": "Xavier Xyan",
+        "rating": 4,
+        "comment": "Provides great fitness insights"
+      },
+      {
+        "user": "Zena Zinc",
+        "rating": 3,
+        "comment": "Subscription model is a bit costly"
+      }
+    ]
+  },
+  {
+    "product_id": "oura-ring-gen3",
+    "name": "Oura Ring Gen3",
+    "price": 299.0,
+    "currency": "USD",
+    "reviews": [
+      {
+        "user": "Alice Alba",
+        "rating": 4,
+        "comment": "Stylish and informative"
+      },
+      {
+        "user": "Bob Azure",
+        "rating": 4,
+        "comment": "Helps track sleep effectively"
+      }
+    ]
+  },
+  {
+    "product_id": "canon-powershot-g7-x-mark-iii",
+    "name": "Canon PowerShot G7 X Mark III",
+    "price": 749.0,
+    "currency": "USD",
+    "reviews": [
+      { "user": "Cathy Coral", "rating": 4, "comment": "Great for vlogging" },
+      { "user": "Dave Dune", "rating": 4, "comment": "Compact and versatile" }
+    ]
+  },
+  {
+    "product_id": "fujifilm-x100v",
+    "name": "Fujifilm X100V",
+    "price": 1399.0,
+    "currency": "USD",
+    "reviews": [
+      {
+        "user": "Eve Ebony",
+        "rating": 5,
+        "comment": "Classic design with modern features"
+      },
+      { "user": "Fred Fern", "rating": 5, "comment": "Excellent image quality" }
+    ]
+  },
+  {
+    "product_id": "sony-xperia-1-v",
+    "name": "Sony Xperia 1 V",
+    "price": 1399.99,
+    "currency": "USD",
+    "reviews": [
+      {
+        "user": "Gale Gold",
+        "rating": 4,
+        "comment": "Top-notch display and audio"
+      },
+      {
+        "user": "Hugh Honey",
+        "rating": 4,
+        "comment": "Pro-level photography features"
+      }
+    ]
+  }
+]

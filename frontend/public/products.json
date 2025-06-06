@@ -1,0 +1,2573 @@
+{
+  "techgadget": [
+    {
+      "product_id": "apple-iphone-15-pro",
+      "category": "Smartphones",
+      "name": "Apple iPhone 15 Pro",
+      "description": "The latest iPhone with a powerful A17 Bionic chip and Pro camera system.",
+      "price": 999.0,
+      "currency": "USD",
+      "stock_quantity": 35,
+      "images": ["iphone-15-pro-front.jpg", "iphone-15-pro-back.jpg"],
+      "specifications": {
+        "display": "6.1-inch Super Retina XDR display",
+        "processor": "A17 Bionic chip",
+        "storage": ["128GB", "256GB", "512GB"],
+        "camera": "48MP Pro camera system",
+        "os": "iOS 17"
+      },
+      "brand": "Apple",
+      "color": ["Titanium Black", "Titanium White"],
+      "variants": [
+        { "storage": "128GB", "price": 999.0 },
+        { "storage": "256GB", "price": 1099.0 }
+      ],
+      "reviews": [],
+      "related_products": ["airpods-pro-2"]
+    },
+    {
+      "product_id": "samsung-galaxy-s23",
+      "category": "Smartphones",
+      "name": "Samsung Galaxy S23",
+      "description": "A compact and powerful Android smartphone.",
+      "price": 799.0,
+      "currency": "USD",
+      "stock_quantity": 40,
+      "images": ["samsung-s23-front.jpg", "samsung-s23-back.jpg"],
+      "specifications": {
+        "display": "6.1-inch Dynamic AMOLED 2X",
+        "processor": "Snapdragon 8 Gen 2",
+        "storage": ["128GB", "256GB"],
+        "camera": "50MP Wide camera",
+        "os": "Android 13"
+      },
+      "brand": "Samsung",
+      "color": ["Phantom Black", "Lavender"],
+      "variants": [
+        { "storage": "128GB", "price": 799.0 },
+        { "storage": "256GB", "price": 849.0 }
+      ],
+      "reviews": [],
+      "related_products": ["galaxy-buds2"]
+    },
+    {
+      "product_id": "sony-wh-1000xm5",
+      "category": "Headphones",
+      "name": "Sony WH-1000XM5",
+      "description": "Industry-leading noise-canceling headphones.",
+      "price": 349.0,
+      "currency": "USD",
+      "stock_quantity": 25,
+      "images": ["sony-wh-1000xm5.jpg"],
+      "specifications": {
+        "type": "Over-ear",
+        "noise_canceling": "Yes",
+        "connectivity": "Bluetooth 5.2",
+        "battery_life": "Up to 30 hours"
+      },
+      "brand": "Sony",
+      "color": ["Black", "Silver"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "canon-eos-r6-mark-ii",
+      "category": "Cameras",
+      "name": "Canon EOS R6 Mark II",
+      "description": "A versatile mirrorless camera for photography and video.",
+      "price": 2499.0,
+      "currency": "USD",
+      "stock_quantity": 10,
+      "images": ["canon-eos-r6-mark-ii.jpg"],
+      "specifications": {
+        "type": "Mirrorless",
+        "sensor": "24.2MP CMOS",
+        "video": "4K 60p",
+        "mount": "Canon RF"
+      },
+      "brand": "Canon",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["canon-rf-24-105"]
+    },
+    {
+      "product_id": "lg-oled-c3",
+      "category": "TVs",
+      "name": "LG OLED C3",
+      "description": "A premium OLED TV with stunning picture quality.",
+      "price": 1799.0,
+      "currency": "USD",
+      "stock_quantity": 15,
+      "images": ["lg-oled-c3.jpg"],
+      "specifications": {
+        "type": "OLED",
+        "size": "65 inch",
+        "resolution": "4K UHD",
+        "smart_tv": "webOS"
+      },
+      "brand": "LG",
+      "color": ["Black"],
+      "variants": [
+        { "size": "55 inch", "price": 1499.0 },
+        { "size": "77 inch", "price": 2799.0 }
+      ],
+      "reviews": [],
+      "related_products": ["lg-soundbar"]
+    },
+    {
+      "product_id": "dell-xps-15",
+      "category": "Laptops",
+      "name": "Dell XPS 15",
+      "description": "A powerful laptop for content creators and professionals.",
+      "price": 1999.0,
+      "currency": "USD",
+      "stock_quantity": 12,
+      "images": ["dell-xps-15.jpg"],
+      "specifications": {
+        "display": "15.6-inch OLED",
+        "processor": "Intel Core i7",
+        "memory": "16GB RAM",
+        "storage": "1TB SSD",
+        "graphics": "NVIDIA GeForce RTX 4050"
+      },
+      "brand": "Dell",
+      "color": ["Platinum Silver"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["dell-monitor"]
+    },
+    {
+      "product_id": "nintendo-switch-oled",
+      "category": "Gaming",
+      "name": "Nintendo Switch OLED",
+      "description": "A versatile gaming console with a vibrant OLED screen.",
+      "price": 349.0,
+      "currency": "USD",
+      "stock_quantity": 20,
+      "images": ["nintendo-switch-oled.jpg"],
+      "specifications": {
+        "type": "Hybrid",
+        "display": "7-inch OLED",
+        "storage": "64GB",
+        "controllers": "Joy-Con"
+      },
+      "brand": "Nintendo",
+      "color": ["Neon Red/Neon Blue"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["zelda-tears-of-the-kingdom"]
+    },
+    {
+      "product_id": "bose-quietcomfort-45",
+      "category": "Headphones",
+      "name": "Bose QuietComfort 45",
+      "description": "Comfortable noise-canceling headphones with excellent sound.",
+      "price": 329.0,
+      "currency": "USD",
+      "stock_quantity": 18,
+      "images": ["bose-quietcomfort-45.jpg"],
+      "specifications": {
+        "type": "Over-ear",
+        "noise_canceling": "Yes",
+        "connectivity": "Bluetooth 5.1",
+        "battery_life": "Up to 24 hours"
+      },
+      "brand": "Bose",
+      "color": ["Black", "White Smoke"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "fitbit-charge-5",
+      "category": "Wearables",
+      "name": "Fitbit Charge 5",
+      "description": "An advanced fitness tracker with built-in GPS and health monitoring.",
+      "price": 179.0,
+      "currency": "USD",
+      "stock_quantity": 30,
+      "images": ["fitbit-charge-5.jpg"],
+      "specifications": {
+        "type": "Fitness tracker",
+        "gps": "Yes",
+        "heart_rate": "Yes",
+        "blood_oxygen": "Yes"
+      },
+      "brand": "Fitbit",
+      "color": ["Black", "Lunar White"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "kitchenaid-stand-mixer",
+      "category": "Appliances",
+      "name": "KitchenAid Artisan Stand Mixer",
+      "description": "A versatile kitchen appliance for baking and cooking.",
+      "price": 449.0,
+      "currency": "USD",
+      "stock_quantity": 8,
+      "images": ["kitchenaid-stand-mixer.jpg"],
+      "specifications": {
+        "type": "Stand mixer",
+        "capacity": "5 quart",
+        "speeds": "10 speeds"
+      },
+      "brand": "KitchenAid",
+      "color": ["Empire Red", "Matte Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["kitchenaid-attachments"]
+    },
+    {
+      "product_id": "google-pixel-8",
+      "category": "Smartphones",
+      "name": "Google Pixel 8",
+      "description": "A smartphone known for its exceptional camera and clean Android experience.",
+      "price": 699.0,
+      "currency": "USD",
+      "stock_quantity": 28,
+      "images": ["google-pixel-8-front.jpg", "google-pixel-8-back.jpg"],
+      "specifications": {
+        "display": "6.2-inch OLED",
+        "processor": "Google Tensor G3",
+        "memory": "8GB RAM",
+        "storage": ["128GB", "256GB"],
+        "camera": "50MP Wide camera",
+        "os": "Android 14"
+      },
+      "brand": "Google",
+      "color": ["Obsidian", "Hazel"],
+      "variants": [
+        { "storage": "128GB", "price": 699.0 },
+        { "storage": "256GB", "price": 749.0 }
+      ],
+      "reviews": [],
+      "related_products": ["google-pixel-buds-pro"]
+    },
+    {
+      "product_id": "oneplus-11",
+      "category": "Smartphones",
+      "name": "OnePlus 11",
+      "description": "A flagship smartphone with a focus on fast charging and performance.",
+      "price": 699.0,
+      "currency": "USD",
+      "stock_quantity": 30,
+      "images": ["oneplus-11-front.jpg", "oneplus-11-back.jpg"],
+      "specifications": {
+        "display": "6.7-inch AMOLED",
+        "processor": "Snapdragon 8 Gen 2",
+        "memory": "8GB RAM",
+        "storage": ["128GB", "256GB"],
+        "camera": "50MP Main camera",
+        "os": "Android 13"
+      },
+      "brand": "OnePlus",
+      "color": ["Eternal Green", "Titan Black"],
+      "variants": [
+        { "storage": "128GB", "price": 699.0 },
+        { "storage": "256GB", "price": 749.0 }
+      ],
+      "reviews": [],
+      "related_products": ["oneplus-buds-pro-2"]
+    },
+    {
+      "product_id": "xiaomi-13-pro",
+      "category": "Smartphones",
+      "name": "Xiaomi 13 Pro",
+      "description": "A premium smartphone with Leica-branded cameras.",
+      "price": 899.0,
+      "currency": "USD",
+      "stock_quantity": 25,
+      "images": ["xiaomi-13-pro-front.jpg", "xiaomi-13-pro-back.jpg"],
+      "specifications": {
+        "display": "6.73-inch AMOLED",
+        "processor": "Snapdragon 8 Gen 2",
+        "memory": "12GB RAM",
+        "storage": ["256GB", "512GB"],
+        "camera": "50MP Leica Main camera",
+        "os": "Android 13"
+      },
+      "brand": "Xiaomi",
+      "color": ["Ceramic Black", "Ceramic White"],
+      "variants": [
+        { "storage": "256GB", "price": 899.0 },
+        { "storage": "512GB", "price": 999.0 }
+      ],
+      "reviews": [],
+      "related_products": ["xiaomi-buds-4-pro"]
+    },
+    {
+      "product_id": "huawei-p60-pro",
+      "category": "Smartphones",
+      "name": "Huawei P60 Pro",
+      "description": "A flagship smartphone known for its exceptional camera capabilities.",
+      "price": 999.0,
+      "currency": "USD",
+      "stock_quantity": 20,
+      "images": ["huawei-p60-pro-front.jpg", "huawei-p60-pro-back.jpg"],
+      "specifications": {
+        "display": "6.67-inch OLED",
+        "processor": "Snapdragon 8+ Gen 1",
+        "memory": "8GB RAM",
+        "storage": ["256GB", "512GB"],
+        "camera": "48MP Main camera",
+        "os": "EMUI 13.1"
+      },
+      "brand": "Huawei",
+      "color": ["Rococo Pearl", "Feather-Sand Black"],
+      "variants": [
+        { "storage": "256GB", "price": 999.0 },
+        { "storage": "512GB", "price": 1099.0 }
+      ],
+      "reviews": [],
+      "related_products": ["huawei-freebuds-pro-2"]
+    },
+    {
+      "product_id": "oppo-find-x6-pro",
+      "category": "Smartphones",
+      "name": "Oppo Find X6 Pro",
+      "description": "A premium smartphone with a focus on display and camera technology.",
+      "price": 849.0,
+      "currency": "USD",
+      "stock_quantity": 22,
+      "images": ["oppo-find-x6-pro-front.jpg", "oppo-find-x6-pro-back.jpg"],
+      "specifications": {
+        "display": "6.82-inch AMOLED",
+        "processor": "Snapdragon 8 Gen 2",
+        "memory": "12GB RAM",
+        "storage": ["256GB", "512GB"],
+        "camera": "50MP Main camera",
+        "os": "ColorOS 13.1"
+      },
+      "brand": "Oppo",
+      "color": ["Black", "Brown"],
+      "variants": [
+        { "storage": "256GB", "price": 849.0 },
+        { "storage": "512GB", "price": 949.0 }
+      ],
+      "reviews": [],
+      "related_products": ["oppo-enco-x2"]
+    },
+    {
+      "product_id": "vivo-x90-pro",
+      "category": "Smartphones",
+      "name": "Vivo X90 Pro",
+      "description": "A flagship smartphone with a powerful camera system co-engineered with ZEISS.",
+      "price": 899.0,
+      "currency": "USD",
+      "stock_quantity": 18,
+      "images": ["vivo-x90-pro-front.jpg", "vivo-x90-pro-back.jpg"],
+      "specifications": {
+        "display": "6.78-inch AMOLED",
+        "processor": "Dimensity 9200",
+        "memory": "12GB RAM",
+        "storage": ["256GB", "512GB"],
+        "camera": "50MP ZEISS Main Camera",
+        "os": "Funtouch OS 13"
+      },
+      "brand": "Vivo",
+      "color": ["Legendary Black"],
+      "variants": [
+        { "storage": "256GB", "price": 899.0 },
+        { "storage": "512GB", "price": 999.0 }
+      ],
+      "reviews": [],
+      "related_products": ["vivo-tws-3"]
+    },
+    {
+      "product_id": "realme-gt3",
+      "category": "Smartphones",
+      "name": "Realme GT 3",
+      "description": "A smartphone with extremely fast charging capabilities.",
+      "price": 649.0,
+      "currency": "USD",
+      "stock_quantity": 27,
+      "images": ["realme-gt3-front.jpg", "realme-gt3-back.jpg"],
+      "specifications": {
+        "display": "6.74-inch AMOLED",
+        "processor": "Snapdragon 8+ Gen 1",
+        "memory": "8GB RAM",
+        "storage": ["128GB", "256GB"],
+        "camera": "50MP Main Camera",
+        "os": "Realme UI 4.0"
+      },
+      "brand": "Realme",
+      "color": ["Pulse White", "Black"],
+      "variants": [
+        { "storage": "128GB", "price": 649.0 },
+        { "storage": "256GB", "price": 699.0 }
+      ],
+      "reviews": [],
+      "related_products": ["realme-buds-air-4"]
+    },
+    {
+      "product_id": "asus-rog-phone-7",
+      "category": "Smartphones",
+      "name": "ASUS ROG Phone 7",
+      "description": "A gaming smartphone with top-tier performance and features.",
+      "price": 999.0,
+      "currency": "USD",
+      "stock_quantity": 15,
+      "images": ["asus-rog-phone-7-front.jpg", "asus-rog-phone-7-back.jpg"],
+      "specifications": {
+        "display": "6.78-inch AMOLED",
+        "processor": "Snapdragon 8 Gen 2",
+        "memory": "16GB RAM",
+        "storage": ["512GB"],
+        "camera": "50MP Main Camera",
+        "os": "Android 13"
+      },
+      "brand": "ASUS",
+      "color": ["Phantom Black", "Storm White"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["rog-cetra-earbuds"]
+    },
+    {
+      "product_id": "motorola-edge-40-pro",
+      "category": "Smartphones",
+      "name": "Motorola Edge 40 Pro",
+      "description": "A smartphone that balances premium features with a clean Android experience.",
+      "price": 799.0,
+      "currency": "USD",
+      "stock_quantity": 22,
+      "images": [
+        "motorola-edge-40-pro-front.jpg",
+        "motorola-edge-40-pro-back.jpg"
+      ],
+      "specifications": {
+        "display": "6.67-inch OLED",
+        "processor": "Snapdragon 8 Gen 2",
+        "memory": "12GB RAM",
+        "storage": ["256GB", "512GB"],
+        "camera": "50MP Main Camera",
+        "os": "Android 13"
+      },
+      "brand": "Motorola",
+      "color": ["Lunar Blue", "Interstellar Black"],
+      "variants": [
+        { "storage": "256GB", "price": 799.0 },
+        { "storage": "512GB", "price": 899.0 }
+      ],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "nothing-phone-2",
+      "category": "Smartphones",
+      "name": "Nothing Phone (2)",
+      "description": "A unique smartphone with a transparent design and the Glyph Interface.",
+      "price": 699.0,
+      "currency": "USD",
+      "stock_quantity": 20,
+      "images": ["nothing-phone-2-front.jpg", "nothing-phone-2-back.jpg"],
+      "specifications": {
+        "display": "6.7-inch OLED",
+        "processor": "Snapdragon 8+ Gen 1",
+        "memory": "12GB RAM",
+        "storage": ["256GB", "512GB"],
+        "camera": "50MP Main Camera",
+        "os": "Nothing OS 2.0"
+      },
+      "brand": "Nothing",
+      "color": ["White", "Dark Grey"],
+      "variants": [
+        { "storage": "256GB", "price": 699.0 },
+        { "storage": "512GB", "price": 799.0 }
+      ],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "hp-spectre-x360",
+      "category": "Laptops",
+      "name": "HP Spectre x360",
+      "description": "A premium 2-in-1 convertible laptop with a sleek design.",
+      "price": 1449.0,
+      "currency": "USD",
+      "stock_quantity": 18,
+      "images": ["hp-spectre-x360-front.jpg", "hp-spectre-x360-open.jpg"],
+      "specifications": {
+        "display": "14-inch OLED",
+        "processor": "Intel Core i7",
+        "memory": "16GB RAM",
+        "storage": "1TB SSD",
+        "graphics": "Intel Iris Xe Graphics"
+      },
+      "brand": "HP",
+      "color": ["Nightfall Black", "Poseidon Blue"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["hp-docking-station"]
+    },
+    {
+      "product_id": "lenovo-thinkpad-x1-yoga",
+      "category": "Laptops",
+      "name": "Lenovo ThinkPad X1 Yoga",
+      "description": "A 2-in-1 business laptop with a durable design and integrated pen.",
+      "price": 1799.0,
+      "currency": "USD",
+      "stock_quantity": 15,
+      "images": [
+        "lenovo-thinkpad-x1-yoga-front.jpg",
+        "lenovo-thinkpad-x1-yoga-open.jpg"
+      ],
+      "specifications": {
+        "display": "14-inch OLED",
+        "processor": "Intel Core i7",
+        "memory": "16GB RAM",
+        "storage": "512GB SSD",
+        "graphics": "Intel Iris Xe Graphics"
+      },
+      "brand": "Lenovo",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["lenovo-pen-pro"]
+    },
+    {
+      "product_id": "microsoft-surface-laptop-5",
+      "category": "Laptops",
+      "name": "Microsoft Surface Laptop 5",
+      "description": "A stylish and lightweight laptop with a premium design.",
+      "price": 1299.0,
+      "currency": "USD",
+      "stock_quantity": 20,
+      "images": ["microsoft-surface-laptop-5.jpg"],
+      "specifications": {
+        "display": "13.5-inch PixelSense",
+        "processor": "Intel Core i7",
+        "memory": "16GB RAM",
+        "storage": "512GB SSD",
+        "graphics": "Intel Iris Xe Graphics"
+      },
+      "brand": "Microsoft",
+      "color": ["Platinum", "Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["surface-pen"]
+    },
+    {
+      "product_id": "apple-macbook-air-m2",
+      "category": "Laptops",
+      "name": "Apple MacBook Air (M2)",
+      "description": "A thin and light laptop with Apple's powerful M2 chip.",
+      "price": 1199.0,
+      "currency": "USD",
+      "stock_quantity": 25,
+      "images": ["apple-macbook-air-m2.jpg"],
+      "specifications": {
+        "display": "13.6-inch Liquid Retina",
+        "processor": "Apple M2 chip",
+        "memory": "8GB RAM",
+        "storage": "512GB SSD",
+        "graphics": "Apple M2 integrated"
+      },
+      "brand": "Apple",
+      "color": ["Space Gray", "Silver"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["apple-magic-mouse"]
+    },
+    {
+      "product_id": "samsung-galaxy-book3-pro-360",
+      "category": "Laptops",
+      "name": "Samsung Galaxy Book3 Pro 360",
+      "description": "A 2-in-1 laptop with a vibrant AMOLED display.",
+      "price": 1599.0,
+      "currency": "USD",
+      "stock_quantity": 12,
+      "images": ["samsung-galaxy-book3-pro-360.jpg"],
+      "specifications": {
+        "display": "16-inch AMOLED",
+        "processor": "Intel Core i7",
+        "memory": "16GB RAM",
+        "storage": "1TB SSD",
+        "graphics": "Intel Iris Xe Graphics"
+      },
+      "brand": "Samsung",
+      "color": ["Graphite"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["samsung-s-pen"]
+    },
+    {
+      "product_id": "logitech-mx-master-3s",
+      "category": "Accessories",
+      "name": "Logitech MX Master 3S",
+      "description": "A premium wireless mouse for productivity.",
+      "price": 99.0,
+      "currency": "USD",
+      "stock_quantity": 40,
+      "images": ["logitech-mx-master-3s.jpg"],
+      "specifications": {
+        "type": "Wireless mouse",
+        "connectivity": "Bluetooth, USB",
+        "dpi": "8000",
+        "buttons": "7 buttons"
+      },
+      "brand": "Logitech",
+      "color": ["Graphite", "Pale Gray"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "razer-blackwidow-v4-pro",
+      "category": "Accessories",
+      "name": "Razer BlackWidow V4 Pro",
+      "description": "A mechanical gaming keyboard with customizable RGB lighting.",
+      "price": 229.0,
+      "currency": "USD",
+      "stock_quantity": 18,
+      "images": ["razer-blackwidow-v4-pro.jpg"],
+      "specifications": {
+        "type": "Mechanical keyboard",
+        "switches": "Razer Clicky Optical",
+        "lighting": "Razer Chroma RGB",
+        "connectivity": "USB"
+      },
+      "brand": "Razer",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["razer-mousepad"]
+    },
+    {
+      "product_id": "sennheiser-momentum-4",
+      "category": "Headphones",
+      "name": "Sennheiser Momentum 4",
+      "description": "Premium wireless headphones with exceptional sound quality.",
+      "price": 379.0,
+      "currency": "USD",
+      "stock_quantity": 22,
+      "images": ["sennheiser-momentum-4.jpg"],
+      "specifications": {
+        "type": "Over-ear",
+        "noise_canceling": "Yes",
+        "connectivity": "Bluetooth 5.2",
+        "battery_life": "Up to 60 hours"
+      },
+      "brand": "Sennheiser",
+      "color": ["Black", "White"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "apple-airpods-max",
+      "category": "Headphones",
+      "name": "Apple AirPods Max",
+      "description": "High-fidelity wireless over-ear headphones with Active Noise Cancellation.",
+      "price": 549.0,
+      "currency": "USD",
+      "stock_quantity": 15,
+      "images": ["apple-airpods-max.jpg"],
+      "specifications": {
+        "type": "Over-ear",
+        "noise_canceling": "Yes",
+        "connectivity": "Bluetooth 5.0",
+        "battery_life": "Up to 20 hours"
+      },
+      "brand": "Apple",
+      "color": ["Space Gray", "Silver"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "marshall-stanmore-iii",
+      "category": "Speakers",
+      "name": "Marshall Stanmore III",
+      "description": "A classic Bluetooth speaker with powerful sound.",
+      "price": 379.0,
+      "currency": "USD",
+      "stock_quantity": 18,
+      "images": ["marshall-stanmore-iii.jpg"],
+      "specifications": {
+        "type": "Bluetooth speaker",
+        "connectivity": "Bluetooth 5.2, AUX",
+        "power_output": "80W",
+        "sound": "Stereo"
+      },
+      "brand": "Marshall",
+      "color": ["Black", "Cream"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "jbl-flip-6",
+      "category": "Speakers",
+      "name": "JBL Flip 6",
+      "description": "A portable and waterproof Bluetooth speaker.",
+      "price": 129.0,
+      "currency": "USD",
+      "stock_quantity": 30,
+      "images": ["jbl-flip-6.jpg"],
+      "specifications": {
+        "type": "Bluetooth speaker",
+        "connectivity": "Bluetooth 5.1",
+        "water_resistance": "IPX7",
+        "battery_life": "Up to 12 hours"
+      },
+      "brand": "JBL",
+      "color": ["Black", "Blue", "Red"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "bose-soundlink-flex",
+      "category": "Speakers",
+      "name": "Bose SoundLink Flex",
+      "description": "A portable Bluetooth speaker with rich bass and rugged design.",
+      "price": 149.0,
+      "currency": "USD",
+      "stock_quantity": 25,
+      "images": ["bose-soundlink-flex.jpg"],
+      "specifications": {
+        "type": "Bluetooth Speaker",
+        "connectivity": "Bluetooth 4.2",
+        "water_resistance": "IP67",
+        "battery_life": "Up to 12 hours"
+      },
+      "brand": "Bose",
+      "color": ["Black", "White Smoke", "Stone Blue"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "sony-srs-xb100",
+      "category": "Speakers",
+      "name": "Sony SRS-XB100",
+      "description": "A compact and portable wireless speaker with EXTRA BASS.",
+      "price": 59.99,
+      "currency": "USD",
+      "stock_quantity": 40,
+      "images": ["sony-srs-xb100.jpg"],
+      "specifications": {
+        "type": "Bluetooth Speaker",
+        "connectivity": "Bluetooth 5.3",
+        "water_resistance": "IP67",
+        "battery_life": "Up to 16 hours"
+      },
+      "brand": "Sony",
+      "color": ["Black", "Light Blue", "Orange"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "samsung-q990c",
+      "category": "Audio",
+      "name": "Samsung Q990C",
+      "description": "A premium soundbar system with Dolby Atmos and DTS:X support.",
+      "price": 1999.0,
+      "currency": "USD",
+      "stock_quantity": 10,
+      "images": ["samsung-q990c.jpg"],
+      "specifications": {
+        "type": "Soundbar system",
+        "channels": "11.1.4",
+        "audio": "Dolby Atmos, DTS:X",
+        "connectivity": "HDMI, Bluetooth, Wi-Fi"
+      },
+      "brand": "Samsung",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["samsung-rear-speakers"]
+    },
+    {
+      "product_id": "lg-s95qr",
+      "category": "Audio",
+      "name": "LG S95QR",
+      "description": "A soundbar with wireless rear speakers and Dolby Atmos.",
+      "price": 1499.0,
+      "currency": "USD",
+      "stock_quantity": 12,
+      "images": ["lg-s95qr.jpg"],
+      "specifications": {
+        "type": "Soundbar System",
+        "channels": "9.1.5",
+        "audio": "Dolby Atmos, DTS:X",
+        "connectivity": "HDMI, Bluetooth, Wi-Fi"
+      },
+      "brand": "LG",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["lg-tv-accessories"]
+    },
+    {
+      "product_id": "sony-ht-a9",
+      "category": "Audio",
+      "name": "Sony HT-A9",
+      "description": "A home theater system with 360 Spatial Sound Mapping.",
+      "price": 1799.0,
+      "currency": "USD",
+      "stock_quantity": 8,
+      "images": ["sony-ht-a9.jpg"],
+      "specifications": {
+        "type": "Home Theater System",
+        "channels": "7.1.4",
+        "audio": "Dolby Atmos, DTS:X",
+        "connectivity": "HDMI, Bluetooth, Wi-Fi"
+      },
+      "brand": "Sony",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["sony-sa-sw5"]
+    },
+    {
+      "product_id": "vizio-elevate",
+      "category": "Audio",
+      "name": "Vizio Elevate",
+      "description": "A soundbar with rotating speakers for immersive audio.",
+      "price": 999.0,
+      "currency": "USD",
+      "stock_quantity": 15,
+      "images": ["vizio-elevate.jpg"],
+      "specifications": {
+        "type": "Soundbar System",
+        "channels": "5.1.4",
+        "audio": "Dolby Atmos, DTS:X",
+        "connectivity": "HDMI, Bluetooth, Wi-Fi"
+      },
+      "brand": "Vizio",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "klipsch-cinema-1200",
+      "category": "Audio",
+      "name": "Klipsch Cinema 1200",
+      "description": "A premium soundbar system with powerful bass.",
+      "price": 1699.0,
+      "currency": "USD",
+      "stock_quantity": 10,
+      "images": ["klipsch-cinema-1200.jpg"],
+      "specifications": {
+        "type": "Soundbar System",
+        "channels": "5.1.4",
+        "audio": "Dolby Atmos",
+        "connectivity": "HDMI, Bluetooth, Wi-Fi"
+      },
+      "brand": "Klipsch",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "nikon-z8",
+      "category": "Cameras",
+      "name": "Nikon Z8",
+      "description": "A professional mirrorless camera with exceptional image quality and performance.",
+      "price": 3999.0,
+      "currency": "USD",
+      "stock_quantity": 7,
+      "images": ["nikon-z8.jpg"],
+      "specifications": {
+        "type": "Mirrorless",
+        "sensor": "45.7MP CMOS",
+        "video": "8K UHD",
+        "mount": "Nikon Z"
+      },
+      "brand": "Nikon",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["nikon-z-24-70"]
+    },
+    {
+      "product_id": "fujifilm-x-t5",
+      "category": "Cameras",
+      "name": "Fujifilm X-T5",
+      "description": "A compact and stylish mirrorless camera with excellent image quality.",
+      "price": 1999.0,
+      "currency": "USD",
+      "stock_quantity": 12,
+      "images": ["fujifilm-x-t5.jpg"],
+      "specifications": {
+        "type": "Mirrorless",
+        "sensor": "40.2MP CMOS",
+        "video": "6.2K",
+        "mount": "Fujifilm X"
+      },
+      "brand": "Fujifilm",
+      "color": ["Black", "Silver"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["fujifilm-x-f16-80"]
+    },
+    {
+      "product_id": "sony-alpha-7r-v",
+      "category": "Cameras",
+      "name": "Sony Alpha 7R V",
+      "description": "A high-resolution mirrorless camera for professional photographers.",
+      "price": 3899.0,
+      "currency": "USD",
+      "stock_quantity": 10,
+      "images": ["sony-alpha-7r-v.jpg"],
+      "specifications": {
+        "type": "Mirrorless",
+        "sensor": "61.0MP CMOS",
+        "video": "8K",
+        "mount": "Sony E"
+      },
+      "brand": "Sony",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["sony-fe-24-70gm2"]
+    },
+    {
+      "product_id": "panasonic-lumix-gh6",
+      "category": "Cameras",
+      "name": "Panasonic Lumix GH6",
+      "description": "A mirrorless camera designed for video creators.",
+      "price": 2199.0,
+      "currency": "USD",
+      "stock_quantity": 8,
+      "images": ["panasonic-lumix-gh6.jpg"],
+      "specifications": {
+        "type": "Mirrorless",
+        "sensor": "25.2MP CMOS",
+        "video": "5.7K",
+        "mount": "Micro Four Thirds"
+      },
+      "brand": "Panasonic",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["panasonic-12-35mm"]
+    },
+    {
+      "product_id": "olympus-om-1",
+      "category": "Cameras",
+      "name": "Olympus OM-1",
+      "description": "A professional mirrorless camera with advanced features.",
+      "price": 2199.0,
+      "currency": "USD",
+      "stock_quantity": 9,
+      "images": ["olympus-om-1.jpg"],
+      "specifications": {
+        "type": "Mirrorless",
+        "sensor": "20.4MP CMOS",
+        "video": "4K",
+        "mount": "Micro Four Thirds"
+      },
+      "brand": "Olympus",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["olympus-12-40mm-pro"]
+    },
+    {
+      "product_id": "rolex-submariner",
+      "category": "Watches",
+      "name": "Rolex Submariner",
+      "description": "A classic and iconic luxury dive watch.",
+      "price": 10000.0,
+      "currency": "USD",
+      "stock_quantity": 5,
+      "images": ["rolex-submariner.jpg"],
+      "specifications": {
+        "type": "Dive watch",
+        "material": "Oystersteel",
+        "movement": "Automatic",
+        "water_resistance": "300m"
+      },
+      "brand": "Rolex",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "omega-speedmaster",
+      "category": "Watches",
+      "name": "Omega Speedmaster",
+      "description": "A legendary chronograph watch, famously known as the 'Moonwatch'.",
+      "price": 7000.0,
+      "currency": "USD",
+      "stock_quantity": 8,
+      "images": ["omega-speedmaster.jpg"],
+      "specifications": {
+        "type": "Chronograph",
+        "material": "Stainless Steel",
+        "movement": "Manual winding",
+        "water_resistance": "50m"
+      },
+      "brand": "Omega",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "seiko-prospex",
+      "category": "Watches",
+      "name": "Seiko Prospex",
+      "description": "A reliable and durable dive watch for professionals and enthusiasts.",
+      "price": 1200.0,
+      "currency": "USD",
+      "stock_quantity": 15,
+      "images": ["seiko-prospex.jpg"],
+      "specifications": {
+        "type": "Dive watch",
+        "material": "Stainless Steel",
+        "movement": "Automatic",
+        "water_resistance": "200m"
+      },
+      "brand": "Seiko",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "tag-heuer-carrera",
+      "category": "Watches",
+      "name": "TAG Heuer Carrera",
+      "description": "A stylish and sporty chronograph watch with a rich racing heritage.",
+      "price": 5500.0,
+      "currency": "USD",
+      "stock_quantity": 10,
+      "images": ["tag-heuer-carrera.jpg"],
+      "specifications": {
+        "type": "Chronograph",
+        "material": "Stainless Steel",
+        "movement": "Automatic",
+        "water_resistance": "100m"
+      },
+      "brand": "TAG Heuer",
+      "color": ["Blue"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "garmin-fenix-7",
+      "category": "Watches",
+      "name": "Garmin Fenix 7",
+      "description": "A rugged and feature-rich multisport GPS smartwatch.",
+      "price": 800.0,
+      "currency": "USD",
+      "stock_quantity": 20,
+      "images": ["garmin-fenix-7.jpg"],
+      "specifications": {
+        "type": "Smartwatch",
+        "material": "Fiber-reinforced polymer",
+        "connectivity": "GPS, Bluetooth, ANT+",
+        "water_resistance": "100m"
+      },
+      "brand": "Garmin",
+      "color": ["Slate Gray"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "breville-barista-touch",
+      "category": "Appliances",
+      "name": "Breville Barista Touch",
+      "description": "An espresso machine with a touchscreen display for easy operation.",
+      "price": 1299.0,
+      "currency": "USD",
+      "stock_quantity": 6,
+      "images": ["breville-barista-touch.jpg"],
+      "specifications": {
+        "type": "Espresso Machine",
+        "pump_pressure": "15 bar",
+        "water_tank_capacity": "2 liters",
+        "milk_frother": "Automatic"
+      },
+      "brand": "Breville",
+      "color": ["Stainless Steel"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "vitamix-a3500",
+      "category": "Appliances",
+      "name": "Vitamix A3500 Ascent Series Smart Blender",
+      "description": "A high-performance blender with programmable settings.",
+      "price": 649.0,
+      "currency": "USD",
+      "stock_quantity": 10,
+      "images": ["vitamix-a3500.jpg"],
+      "specifications": {
+        "type": "Blender",
+        "motor": "2.2 HP",
+        "capacity": "64 oz",
+        "settings": "5 program settings"
+      },
+      "brand": "Vitamix",
+      "color": ["Black Stainless"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "dyson-v15-detect",
+      "category": "Appliances",
+      "name": "Dyson V15 Detect",
+      "description": "A cordless vacuum cleaner with laser detection and powerful suction.",
+      "price": 749.0,
+      "currency": "USD",
+      "stock_quantity": 8,
+      "images": ["dyson-v15-detect.jpg"],
+      "specifications": {
+        "type": "Cordless Vacuum",
+        "suction_power": "230 AW",
+        "battery_life": "Up to 60 minutes",
+        "filtration": "HEPA"
+      },
+      "brand": "Dyson",
+      "color": ["Yellow/Nickel"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "instant-pot-duo-crisp",
+      "category": "Appliances",
+      "name": "Instant Pot Duo Crisp",
+      "description": "A multi-cooker with air frying capabilities.",
+      "price": 229.0,
+      "currency": "USD",
+      "stock_quantity": 20,
+      "images": ["instant-pot-duo-crisp.jpg"],
+      "specifications": {
+        "type": "Multi-cooker",
+        "capacity": "8 quart",
+        "functions": "11-in-1",
+        "wattage": "1500W"
+      },
+      "brand": "Instant Pot",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "tesla-model-3",
+      "category": "Automotive",
+      "name": "Tesla Model 3",
+      "description": "An all-electric sedan with impressive performance and technology.",
+      "price": 45000.0,
+      "currency": "USD",
+      "stock_quantity": 3,
+      "images": ["tesla-model-3.jpg"],
+      "specifications": {
+        "type": "Electric car",
+        "range": "333 miles",
+        "battery": "75 kWh",
+        "drive": "Rear-Wheel Drive"
+      },
+      "brand": "Tesla",
+      "color": ["Pearl White Multi-Coat", "Midnight Silver Metallic"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["tesla-supercharger"]
+    },
+    {
+      "product_id": "ford-mustang-mach-e",
+      "category": "Automotive",
+      "name": "Ford Mustang Mach-E",
+      "description": "An electric SUV with sporty styling and performance.",
+      "price": 50000.0,
+      "currency": "USD",
+      "stock_quantity": 5,
+      "images": ["ford-mustang-mach-e.jpg"],
+      "specifications": {
+        "type": "Electric SUV",
+        "range": "310 miles",
+        "battery": "91 kWh",
+        "drive": "All-Wheel Drive"
+      },
+      "brand": "Ford",
+      "color": ["Cyber Orange Metallic Tri-Coat", "Grabber Blue Metallic"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "bmw-ix",
+      "category": "Automotive",
+      "name": "BMW iX",
+      "description": "A luxurious electric SUV with a spacious interior and advanced technology.",
+      "price": 85000.0,
+      "currency": "USD",
+      "stock_quantity": 2,
+      "images": ["bmw-ix.jpg"],
+      "specifications": {
+        "type": "Electric SUV",
+        "range": "324 miles",
+        "battery": "111.5 kWh",
+        "drive": "All-Wheel Drive"
+      },
+      "brand": "BMW",
+      "color": ["Mineral White Metallic", "Sophisto Grey Metallic"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "mercedes-benz-eqs",
+      "category": "Automotive",
+      "name": "Mercedes-Benz EQS",
+      "description": "A high-end electric sedan with a focus on luxury and comfort.",
+      "price": 105000.0,
+      "currency": "USD",
+      "stock_quantity": 1,
+      "images": ["mercedes-benz-eqs.jpg"],
+      "specifications": {
+        "type": "Electric sedan",
+        "range": "350 miles",
+        "battery": "107.8 kWh",
+        "drive": "All-Wheel Drive"
+      },
+      "brand": "Mercedes-Benz",
+      "color": ["Obsidian Black Metallic", " হাইপারবোলিক সিলভার Metallic"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "volvo-xc40-recharge",
+      "category": "Automotive",
+      "name": "Volvo XC40 Recharge",
+      "description": "A compact electric SUV with Scandinavian design and safety features.",
+      "price": 52000.0,
+      "currency": "USD",
+      "stock_quantity": 6,
+      "images": ["volvo-xc40-recharge.jpg"],
+      "specifications": {
+        "type": "Electric SUV",
+        "range": "293 miles",
+        "battery": "78 kWh",
+        "drive": "All-Wheel Drive"
+      },
+      "brand": "Volvo",
+      "color": ["Fjord Blue Metallic", "Crystal White Metallic"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "bose-quietcomfort-earbuds-ii",
+      "category": "Audio",
+      "name": "Bose QuietComfort Earbuds II",
+      "description": "Wireless earbuds with world-class noise cancellation and customizable sound.",
+      "price": 299.0,
+      "currency": "USD",
+      "stock_quantity": 35,
+      "images": ["bose-quietcomfort-earbuds-ii.jpg"],
+      "specifications": {
+        "type": "Wireless earbuds",
+        "noise_canceling": "Yes",
+        "connectivity": "Bluetooth 5.3",
+        "battery_life": "Up to 6 hours (earbuds), up to 24 hours (with case)"
+      },
+      "brand": "Bose",
+      "color": ["Black", "Soapstone"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "sony-wf-1000xm5",
+      "category": "Audio",
+      "name": "Sony WF-1000XM5",
+      "description": "Industry-leading noise-canceling truly wireless earbuds.",
+      "price": 279.99,
+      "currency": "USD",
+      "stock_quantity": 30,
+      "images": ["sony-wf-1000xm5.jpg"],
+      "specifications": {
+        "type": "Wireless earbuds",
+        "noise_canceling": "Yes",
+        "connectivity": "Bluetooth 5.3",
+        "battery_life": "Up to 8 hours (earbuds), up to 24 hours (with case)"
+      },
+      "brand": "Sony",
+      "color": ["Black", "Silver"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "apple-watch-series-9",
+      "category": "Wearables",
+      "name": "Apple Watch Series 9",
+      "description": "The latest Apple Watch with advanced health and fitness tracking.",
+      "price": 399.0,
+      "currency": "USD",
+      "stock_quantity": 20,
+      "images": ["apple-watch-series-9.jpg"],
+      "specifications": {
+        "type": "Smartwatch",
+        "display": "OLED Retina",
+        "connectivity": "GPS, Bluetooth, Wi-Fi, Cellular (optional)",
+        "water_resistance": "50m"
+      },
+      "brand": "Apple",
+      "color": ["Starlight", "Midnight"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["apple-watch-bands"]
+    },
+    {
+      "product_id": "samsung-galaxy-watch-6",
+      "category": "Wearables",
+      "name": "Samsung Galaxy Watch 6",
+      "description": "A stylish and feature-packed smartwatch with comprehensive health monitoring.",
+      "price": 329.0,
+      "currency": "USD",
+      "stock_quantity": 25,
+      "images": ["samsung-galaxy-watch-6.jpg"],
+      "specifications": {
+        "type": "Smartwatch",
+        "display": "Super AMOLED",
+        "connectivity": "Bluetooth, Wi-Fi, LTE (optional)",
+        "water_resistance": "50m"
+      },
+      "brand": "Samsung",
+      "color": ["Graphite", "Silver"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["samsung-watch-bands"]
+    },
+    {
+      "product_id": "fitbit-versa-4",
+      "category": "Wearables",
+      "name": "Fitbit Versa 4",
+      "description": "A health and fitness smartwatch with GPS and heart rate tracking.",
+      "price": 229.0,
+      "currency": "USD",
+      "stock_quantity": 30,
+      "images": ["fitbit-versa-4.jpg"],
+      "specifications": {
+        "type": "Smartwatch",
+        "display": "AMOLED",
+        "connectivity": "Bluetooth, GPS",
+        "water_resistance": "50m"
+      },
+      "brand": "Fitbit",
+      "color": ["Black", "Pink Sand"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "canon-eos-r6-mark-ii",
+      "category": "Cameras",
+      "name": "Canon EOS R6 Mark II",
+      "description": "A full-frame mirrorless camera for photography and videography.",
+      "price": 2799.0,
+      "currency": "USD",
+      "stock_quantity": 9,
+      "images": ["canon-eos-r6-mark-ii.jpg"],
+      "specifications": {
+        "type": "Mirrorless",
+        "sensor": "24.2MP CMOS",
+        "video": "4K UHD",
+        "mount": "Canon RF"
+      },
+      "brand": "Canon",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["canon-rf-24-105"]
+    },
+    {
+      "product_id": "nikon-z7-ii",
+      "category": "Cameras",
+      "name": "Nikon Z7 II",
+      "description": "A high-resolution full-frame mirrorless camera for professional use.",
+      "price": 2999.0,
+      "currency": "USD",
+      "stock_quantity": 8,
+      "images": ["nikon-z7-ii.jpg"],
+      "specifications": {
+        "type": "Mirrorless",
+        "sensor": "45.7MP CMOS",
+        "video": "4K UHD",
+        "mount": "Nikon Z"
+      },
+      "brand": "Nikon",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["nikon-z-24-70-s"]
+    },
+    {
+      "product_id": "leica-q3",
+      "category": "Cameras",
+      "name": "Leica Q3",
+      "description": "A premium compact camera with a fast lens and exceptional image quality.",
+      "price": 5995.0,
+      "currency": "USD",
+      "stock_quantity": 3,
+      "images": ["leica-q3.jpg"],
+      "specifications": {
+        "type": "Compact",
+        "sensor": "Full-frame CMOS",
+        "lens": "28mm f/1.7",
+        "video": "8K"
+      },
+      "brand": "Leica",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "gopro-hero12-black",
+      "category": "Cameras",
+      "name": "GoPro HERO12 Black",
+      "description": "An action camera with incredible video stabilization and rugged design.",
+      "price": 399.99,
+      "currency": "USD",
+      "stock_quantity": 20,
+      "images": ["gopro-hero12-black.jpg"],
+      "specifications": {
+        "type": "Action Camera",
+        "video": "5.3K",
+        "water_resistance": "10m",
+        "stabilization": "HyperSmooth 6.0"
+      },
+      "brand": "GoPro",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["gopro-accessories"]
+    },
+    {
+      "product_id": "ricoh-gr-iii",
+      "category": "Cameras",
+      "name": "Ricoh GR III",
+      "description": "A compact camera with a large sensor and excellent image quality.",
+      "price": 1099.0,
+      "currency": "USD",
+      "stock_quantity": 10,
+      "images": ["ricoh-gr-iii.jpg"],
+      "specifications": {
+        "type": "Compact",
+        "sensor": "24.2MP APS-C CMOS",
+        "lens": "28mm f/2.8",
+        "video": "1080p"
+      },
+      "brand": "Ricoh",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "samsung-galaxy-s24-ultra",
+      "category": "Phones",
+      "name": "Samsung Galaxy S24 Ultra",
+      "description": "The latest flagship smartphone with a powerful processor and advanced camera.",
+      "price": 1199.0,
+      "currency": "USD",
+      "stock_quantity": 15,
+      "images": ["samsung-galaxy-s24-ultra.jpg"],
+      "specifications": {
+        "display": "6.8-inch Dynamic AMOLED 2X",
+        "processor": "Snapdragon 8 Gen 3",
+        "memory": "12GB RAM",
+        "storage": "512GB",
+        "camera": "200MP Wide"
+      },
+      "brand": "Samsung",
+      "color": ["Phantom Black", "Cream"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["samsung-galaxy-buds2-pro"]
+    },
+    {
+      "product_id": "apple-iphone-15-pro-max",
+      "category": "Phones",
+      "name": "Apple iPhone 15 Pro Max",
+      "description": "The newest iPhone with a ProMotion display and a powerful A17 Bionic chip.",
+      "price": 1299.0,
+      "currency": "USD",
+      "stock_quantity": 12,
+      "images": ["apple-iphone-15-pro-max.jpg"],
+      "specifications": {
+        "display": "6.7-inch Super Retina XDR",
+        "processor": "Apple A17 Bionic",
+        "memory": "8GB RAM",
+        "storage": "512GB",
+        "camera": "48MP Main"
+      },
+      "brand": "Apple",
+      "color": ["Natural Titanium", "Blue Titanium"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["apple-airpods-pro-2"]
+    },
+    {
+      "product_id": "google-pixel-8-pro",
+      "category": "Phones",
+      "name": "Google Pixel 8 Pro",
+      "description": "A smartphone with a focus on AI-powered features and a great camera.",
+      "price": 999.0,
+      "currency": "USD",
+      "stock_quantity": 18,
+      "images": ["google-pixel-8-pro.jpg"],
+      "specifications": {
+        "display": "6.7-inch OLED",
+        "processor": "Google Tensor G3",
+        "memory": "12GB RAM",
+        "storage": "256GB",
+        "camera": "50MP Octa PD Wide"
+      },
+      "brand": "Google",
+      "color": ["Obsidian", "Porcelain"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["google-pixel-buds-pro"]
+    },
+    {
+      "product_id": "oneplus-12",
+      "category": "Phones",
+      "name": "OnePlus 12",
+      "description": "A flagship smartphone with a high refresh rate display and fast charging.",
+      "price": 899.0,
+      "currency": "USD",
+      "stock_quantity": 20,
+      "images": ["oneplus-12.jpg"],
+      "specifications": {
+        "display": "6.7-inch Fluid AMOLED",
+        "processor": "Snapdragon 8 Gen 3",
+        "memory": "12GB RAM",
+        "storage": "256GB",
+        "camera": "50MP Wide"
+      },
+      "brand": "OnePlus",
+      "color": ["Flowy Emerald", "Velvet Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["oneplus-buds-3"]
+    },
+    {
+      "product_id": "xiaomi-14-pro",
+      "category": "Phones",
+      "name": "Xiaomi 14 Pro",
+      "description": "A smartphone with a powerful camera system and fast charging capabilities.",
+      "price": 799.0,
+      "currency": "USD",
+      "stock_quantity": 22,
+      "images": ["xiaomi-14-pro.jpg"],
+      "specifications": {
+        "display": "6.73-inch AMOLED",
+        "processor": "Snapdragon 8 Gen 3",
+        "memory": "12GB RAM",
+        "storage": "256GB",
+        "camera": "50MP Main"
+      },
+      "brand": "Xiaomi",
+      "color": ["Black", "White"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["xiaomi-buds-4-pro"]
+    },
+    {
+      "product_id": "lg-oled65c3",
+      "category": "TVs",
+      "name": "LG OLED65C3",
+      "description": "A 65-inch OLED TV with stunning picture quality and smart features.",
+      "price": 2499.0,
+      "currency": "USD",
+      "stock_quantity": 10,
+      "images": ["lg-oled65c3.jpg"],
+      "specifications": {
+        "display": "65-inch OLED",
+        "resolution": "4K UHD",
+        "refresh_rate": "120Hz",
+        "smart_platform": "webOS"
+      },
+      "brand": "LG",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["lg-soundbar"]
+    },
+    {
+      "product_id": "sony-xr65a80l",
+      "category": "TVs",
+      "name": "Sony XR-65A80L",
+      "description": "A 65-inch OLED TV with cognitive intelligence for lifelike picture and sound.",
+      "price": 2799.0,
+      "currency": "USD",
+      "stock_quantity": 8,
+      "images": ["sony-xr65a80l.jpg"],
+      "specifications": {
+        "display": "65-inch OLED",
+        "resolution": "4K UHD",
+        "refresh_rate": "120Hz",
+        "smart_platform": "Google TV"
+      },
+      "brand": "Sony",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["sony-soundbar"]
+    },
+    {
+      "product_id": "samsung-qn65s95c",
+      "category": "TVs",
+      "name": "Samsung QN65S95C",
+      "description": "A 65-inch QD-OLED TV with vibrant colors and deep blacks.",
+      "price": 3299.0,
+      "currency": "USD",
+      "stock_quantity": 5,
+      "images": ["samsung-qn65s95c.jpg"],
+      "specifications": {
+        "display": "65-inch QD-OLED",
+        "resolution": "4K UHD",
+        "refresh_rate": "120Hz",
+        "smart_platform": "Tizen"
+      },
+      "brand": "Samsung",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["samsung-soundbar-q990c"]
+    },
+    {
+      "product_id": "tcl-65q650g",
+      "category": "TVs",
+      "name": "TCL 65Q650G",
+      "description": "A 65-inch QLED TV with Dolby Vision and Google TV.",
+      "price": 799.0,
+      "currency": "USD",
+      "stock_quantity": 20,
+      "images": ["tcl-65q650g.jpg"],
+      "specifications": {
+        "display": "65-inch QLED",
+        "resolution": "4K UHD",
+        "refresh_rate": "120Hz VRR",
+        "smart_platform": "Google TV"
+      },
+      "brand": "TCL",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "hisense-65u8k",
+      "category": "TVs",
+      "name": "Hisense 65U8K",
+      "description": "A 65-inch Mini-LED ULED TV with high brightness and contrast.",
+      "price": 1299.0,
+      "currency": "USD",
+      "stock_quantity": 15,
+      "images": ["hisense-65u8k.jpg"],
+      "specifications": {
+        "display": "65-inch Mini-LED ULED",
+        "resolution": "4K UHD",
+        "refresh_rate": "120Hz",
+        "smart_platform": "Google TV"
+      },
+      "brand": "Hisense",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "bose-soundbar-900",
+      "category": "Audio",
+      "name": "Bose Soundbar 900",
+      "description": "A premium smart soundbar with Dolby Atmos and voice control.",
+      "price": 899.0,
+      "currency": "USD",
+      "stock_quantity": 12,
+      "images": ["bose-soundbar-900.jpg"],
+      "specifications": {
+        "type": "Soundbar",
+        "audio": "Dolby Atmos",
+        "connectivity": "Wi-Fi, Bluetooth, HDMI eARC",
+        "voice_control": "Yes (Alexa, Google Assistant)"
+      },
+      "brand": "Bose",
+      "color": ["Black", "White"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["bose-subwoofer", "bose-surround-speakers"]
+    },
+    {
+      "product_id": "sony-ht-a7000",
+      "category": "Audio",
+      "name": "Sony HT-A7000",
+      "description": "A flagship soundbar with 7.1.2ch surround sound and 360 Spatial Sound Mapping.",
+      "price": 1399.0,
+      "currency": "USD",
+      "stock_quantity": 8,
+      "images": ["sony-ht-a7000.jpg"],
+      "specifications": {
+        "type": "Soundbar",
+        "audio": "Dolby Atmos, DTS:X",
+        "connectivity": "Wi-Fi, Bluetooth, HDMI eARC",
+        "voice_control": "Yes (Google Assistant)"
+      },
+      "brand": "Sony",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["sony-sa-sw5", "sony-sa-rs5"]
+    },
+    {
+      "product_id": "sennheiser-momentum-4",
+      "category": "Audio",
+      "name": "Sennheiser Momentum 4",
+      "description": "Wireless headphones with exceptional sound quality and adaptive noise cancellation.",
+      "price": 349.95,
+      "currency": "USD",
+      "stock_quantity": 20,
+      "images": ["sennheiser-momentum-4.jpg"],
+      "specifications": {
+        "type": "Wireless headphones",
+        "noise_canceling": "Yes, Adaptive",
+        "connectivity": "Bluetooth 5.2",
+        "battery_life": "Up to 60 hours"
+      },
+      "brand": "Sennheiser",
+      "color": ["Black", "White"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "airpods-max",
+      "category": "Audio",
+      "name": "Apple AirPods Max",
+      "description": "Over-ear headphones with high-fidelity audio and Active Noise Cancellation.",
+      "price": 549.0,
+      "currency": "USD",
+      "stock_quantity": 15,
+      "images": ["airpods-max.jpg"],
+      "specifications": {
+        "type": "Over-ear headphones",
+        "noise_canceling": "Yes, Active",
+        "connectivity": "Bluetooth 5.0",
+        "battery_life": "Up to 20 hours"
+      },
+      "brand": "Apple",
+      "color": ["Space Gray", "Silver"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["airpods-pro-2"]
+    },
+    {
+      "product_id": "bowers-wilkins-px8",
+      "category": "Audio",
+      "name": "Bowers & Wilkins PX8",
+      "description": "High-performance wireless headphones with advanced noise cancellation.",
+      "price": 699.0,
+      "currency": "USD",
+      "stock_quantity": 5,
+      "images": ["bowers-wilkins-px8.jpg"],
+      "specifications": {
+        "type": "Wireless headphones",
+        "noise_canceling": "Yes, Advanced",
+        "connectivity": "Bluetooth 5.2",
+        "battery_life": "Up to 30 hours"
+      },
+      "brand": "Bowers & Wilkins",
+      "color": ["Black", "Tan"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "garmin-fenix-7",
+      "category": "Wearables",
+      "name": "Garmin Fenix 7",
+      "description": "A premium multisport GPS smartwatch with advanced training features.",
+      "price": 699.99,
+      "currency": "USD",
+      "stock_quantity": 10,
+      "images": ["garmin-fenix-7.jpg"],
+      "specifications": {
+        "type": "Multisport smartwatch",
+        "display": "1.3-inch MIP",
+        "connectivity": "GPS, Bluetooth, Wi-Fi",
+        "water_resistance": "100m"
+      },
+      "brand": "Garmin",
+      "color": ["Carbon Gray", "Sapphire Solar"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "whoop-4.0",
+      "category": "Wearables",
+      "name": "Whoop 4.0",
+      "description": "A fitness tracker that provides personalized insights on recovery, sleep, and training.",
+      "price": 0.0,
+      "currency": "USD",
+      "stock_quantity": 50,
+      "images": ["whoop-4.0.jpg"],
+      "specifications": {
+        "type": "Fitness tracker",
+        "sensors": "Heart rate, blood oxygen, skin temperature",
+        "connectivity": "Bluetooth",
+        "water_resistance": "50m"
+      },
+      "brand": "Whoop",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "oura-ring-gen3",
+      "category": "Wearables",
+      "name": "Oura Ring Gen3",
+      "description": "A smart ring that tracks sleep, activity, and overall health.",
+      "price": 299.0,
+      "currency": "USD",
+      "stock_quantity": 30,
+      "images": ["oura-ring-gen3.jpg"],
+      "specifications": {
+        "type": "Smart ring",
+        "sensors": "Heart rate, HRV, body temperature",
+        "connectivity": "Bluetooth",
+        "water_resistance": "100m"
+      },
+      "brand": "Oura",
+      "color": ["Silver", "Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "canon-powershot-g7-x-mark-iii",
+      "category": "Cameras",
+      "name": "Canon PowerShot G7 X Mark III",
+      "description": "A compact camera with a 20.1MP sensor and 4K video recording.",
+      "price": 749.0,
+      "currency": "USD",
+      "stock_quantity": 15,
+      "images": ["canon-powershot-g7-x-mark-iii.jpg"],
+      "specifications": {
+        "type": "Compact",
+        "sensor": "20.1MP CMOS",
+        "video": "4K UHD",
+        "lens": "24-100mm f/1.7-2.8"
+      },
+      "brand": "Canon",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "fujifilm-x100v",
+      "category": "Cameras",
+      "name": "Fujifilm X100V",
+      "description": "A premium compact camera with a retro design and a 26.1MP sensor.",
+      "price": 1399.0,
+      "currency": "USD",
+      "stock_quantity": 7,
+      "images": ["fujifilm-x100v.jpg"],
+      "specifications": {
+        "type": "Compact",
+        "sensor": "26.1MP APS-C CMOS",
+        "video": "4K UHD",
+        "lens": "23mm f/2"
+      },
+      "brand": "Fujifilm",
+      "color": ["Black", "Silver"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "sony-xperia-1-v",
+      "category": "Phones",
+      "name": "Sony Xperia 1 V",
+      "description": "A smartphone with a 21:9 display and advanced camera features.",
+      "price": 1399.99,
+      "currency": "USD",
+      "stock_quantity": 10,
+      "images": ["sony-xperia-1-v.jpg"],
+      "specifications": {
+        "display": "6.5-inch 21:9 OLED",
+        "processor": "Snapdragon 8 Gen 2",
+        "memory": "12GB RAM",
+        "storage": "256GB/512GB",
+        "camera": "52MP Wide"
+      },
+      "brand": "Sony",
+      "color": ["Black", "Khaki Green"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["sony-wf-1000xm5"]
+    },
+    {
+      "product_id": "asus-rog-phone-7-ultimate",
+      "category": "Phones",
+      "name": "ASUS ROG Phone 7 Ultimate",
+      "description": "A gaming smartphone with a high refresh rate display and advanced cooling.",
+      "price": 1299.0,
+      "currency": "USD",
+      "stock_quantity": 8,
+      "images": ["asus-rog-phone-7-ultimate.jpg"],
+      "specifications": {
+        "display": "6.78-inch AMOLED",
+        "processor": "Snapdragon 8 Gen 2",
+        "memory": "16GB RAM",
+        "storage": "512GB",
+        "camera": "50MP Wide"
+      },
+      "brand": "ASUS",
+      "color": ["Storm White"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "nothing-phone-2",
+      "category": "Phones",
+      "name": "Nothing Phone (2)",
+      "description": "A smartphone with a unique transparent design and Glyph interface.",
+      "price": 749.0,
+      "currency": "USD",
+      "stock_quantity": 30,
+      "images": ["nothing-phone-2.jpg"],
+      "specifications": {
+        "display": "6.7-inch OLED",
+        "processor": "Snapdragon 8+ Gen 1",
+        "memory": "12GB RAM",
+        "storage": "256GB/512GB",
+        "camera": "50MP Wide"
+      },
+      "brand": "Nothing",
+      "color": ["White", "Dark Gray"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "motorola-edge-40-pro",
+      "category": "Phones",
+      "name": "Motorola Edge 40 Pro",
+      "description": "A smartphone with a curved display, fast charging, and a high-resolution camera.",
+      "price": 899.99,
+      "currency": "USD",
+      "stock_quantity": 25,
+      "images": ["motorola-edge-40-pro.jpg"],
+      "specifications": {
+        "display": "6.67-inch OLED",
+        "processor": "Snapdragon 8 Gen 2",
+        "memory": "12GB RAM",
+        "storage": "256GB",
+        "camera": "50MP Wide"
+      },
+      "brand": "Motorola",
+      "color": ["Lunar Blue", "Interstellar Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "vizio-oled65-h1",
+      "category": "TVs",
+      "name": "Vizio OLED65-H1",
+      "description": "A 65-inch OLED TV with Dolby Vision HDR and SmartCast.",
+      "price": 1999.0,
+      "currency": "USD",
+      "stock_quantity": 12,
+      "images": ["vizio-oled65-h1.jpg"],
+      "specifications": {
+        "display": "65-inch OLED",
+        "resolution": "4K UHD",
+        "refresh_rate": "120Hz",
+        "smart_platform": "SmartCast"
+      },
+      "brand": "Vizio",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["vizio-soundbar"]
+    },
+    {
+      "product_id": "philips-65oled908",
+      "category": "TVs",
+      "name": "Philips 65OLED908",
+      "description": "A 65-inch OLED TV with Ambilight technology and immersive picture quality.",
+      "price": 2999.0,
+      "currency": "USD",
+      "stock_quantity": 6,
+      "images": ["philips-65oled908.jpg"],
+      "specifications": {
+        "display": "65-inch OLED",
+        "resolution": "4K UHD",
+        "refresh_rate": "120Hz",
+        "smart_platform": "Google TV"
+      },
+      "brand": "Philips",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": ["philips-soundbar"]
+    },
+    {
+      "product_id": "panasonic-tx-65mzl2000",
+      "category": "TVs",
+      "name": "Panasonic TX-65MZL2000",
+      "description": "A 65-inch OLED TV with a Master OLED Pro panel and advanced picture processing.",
+      "price": 3499.0,
+      "currency": "USD",
+      "stock_quantity": 4,
+      "images": ["panasonic-tx-65mzl2000.jpg"],
+      "specifications": {
+        "display": "65-inch OLED",
+        "resolution": "4K UHD",
+        "refresh_rate": "120Hz",
+        "smart_platform": "My Home Screen 8.0"
+      },
+      "brand": "Panasonic",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "lg-86uq9000pud",
+      "category": "TVs",
+      "name": "LG 86UQ9000PUD",
+      "description": "An 86-inch 4K UHD Smart TV with webOS and ThinQ AI.",
+      "price": 1899.0,
+      "currency": "USD",
+      "stock_quantity": 18,
+      "images": ["lg-86uq9000pud.jpg"],
+      "specifications": {
+        "display": "86-inch LED",
+        "resolution": "4K UHD",
+        "refresh_rate": "60Hz",
+        "smart_platform": "webOS"
+      },
+      "brand": "LG",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    },
+    {
+      "product_id": "sony-xr-85x90k",
+      "category": "TVs",
+      "name": "Sony XR-85X90K",
+      "description": "85-inch 4K HDR Full Array LED Smart TV with Cognitive Processor XR.",
+      "price": 2799.0,
+      "currency": "USD",
+      "stock_quantity": 10,
+      "images": ["sony-xr-85x90k.jpg"],
+      "specifications": {
+        "display": "85-inch LED",
+        "resolution": "4K UHD",
+        "refresh_rate": "120Hz",
+        "smart_platform": "Google TV"
+      },
+      "brand": "Sony",
+      "color": ["Black"],
+      "variants": [],
+      "reviews": [],
+      "related_products": []
+    }
+  ],
+  "fashion": [
+    {
+      "product_id": "levis-501-original-fit-jeans",
+      "category": "Clothing",
+      "subcategory": "Jeans",
+      "name": "Levi's 501 Original Fit Jeans",
+      "description": "The iconic 501 jeans with a straight fit, made from 100% cotton for a classic, rigid feel.  Available in a variety of washes and inseam lengths.",
+      "price": 79.5,
+      "currency": "USD",
+      "stock_quantity": 150,
+      "images": [
+        {
+          "url": "https://example.com/levis-501-front.jpg",
+          "alt": "Levi's 501 Original Fit Jeans Front"
+        },
+        {
+          "url": "https://example.com/levis-501-back.jpg",
+          "alt": "Levi's 501 Original Fit Jeans Back"
+        },
+        {
+          "url": "https://example.com/levis-501-detail.jpg",
+          "alt": "Levi's 501 Original Fit Jeans Detail"
+        }
+      ],
+      "specifications": {
+        "fabric": "100% Cotton",
+        "fit": "Straight",
+        "rise": "High Rise",
+        "closure": "Button Fly",
+        "inseam": ["30", "32", "34", "36"],
+        "leg_opening": "16.75 inches"
+      },
+      "brand": "Levi's",
+      "color": ["Dark Wash", "Medium Wash", "Light Wash", "Black"],
+      "sizes": [
+        "28x30",
+        "29x30",
+        "30x30",
+        "31x32",
+        "32x32",
+        "33x34",
+        "34x34",
+        "36x36"
+      ],
+      "variants": [],
+      "reviews": [
+        {
+          "user": "John Doe",
+          "rating": 5,
+          "comment": "Classic fit, great quality denim."
+        },
+        {
+          "user": "Jane Smith",
+          "rating": 4,
+          "comment": "Love the high rise, but they're a bit stiff at first."
+        }
+      ],
+      "related_products": ["levis-trucker-jacket", "converse-chuck-taylor"]
+    },
+    {
+      "product_id": "adidas-originals-trefoil-hoodie",
+      "category": "Clothing",
+      "subcategory": "Hoodies & Sweatshirts",
+      "name": "Adidas Originals Trefoil Hoodie",
+      "description": "A classic, comfortable hoodie featuring the iconic Adidas Trefoil logo.  Perfect for casual wear.",
+      "price": 70.0,
+      "currency": "USD",
+      "stock_quantity": 120,
+      "images": [
+        {
+          "url": "https://example.com/adidas-trefoil-hoodie-front.jpg",
+          "alt": "Adidas Originals Trefoil Hoodie Front"
+        },
+        {
+          "url": "https://example.com/adidas-trefoil-hoodie-side.jpg",
+          "alt": "Adidas Originals Trefoil Hoodie Side"
+        },
+        {
+          "url": "https://example.com/adidas-trefoil-hoodie-detail.jpg",
+          "alt": "Adidas Originals Trefoil Hoodie Detail"
+        }
+      ],
+      "specifications": {
+        "fabric": "70% Cotton, 30% Recycled Polyester Fleece",
+        "fit": "Regular Fit",
+        "sleeve_length": "Long Sleeve",
+        "closure": "Pullover",
+        "hood_type": "Drawstring Hood",
+        "pocket_type": "Kangaroo Pocket"
+      },
+      "brand": "Adidas Originals",
+      "color": ["Black", "Medium Grey Heather", "Scarlet", "Royal Blue"],
+      "sizes": ["XS", "S", "M", "L", "XL", "2XL"],
+      "variants": [],
+      "reviews": [
+        {
+          "user": "Alex K.",
+          "rating": 5,
+          "comment": "Super comfortable and fits great.  Love the classic look."
+        },
+        {
+          "user": "Sarah M.",
+          "rating": 4,
+          "comment": "Good quality, but the sizing runs a little large."
+        }
+      ],
+      "related_products": ["adidas-superstar", "adidas-track-pants"]
+    },
+    {
+      "product_id": "nike-air-force-1-07",
+      "category": "Footwear",
+      "subcategory": "Sneakers",
+      "name": "Nike Air Force 1 '07",
+      "description": "The classic Nike Air Force 1 '07, a basketball icon turned streetwear staple.  Clean lines and crisp leather.",
+      "price": 110.0,
+      "currency": "USD",
+      "stock_quantity": 100,
+      "images": [
+        {
+          "url": "https://example.com/nike-air-force-1-white.jpg",
+          "alt": "Nike Air Force 1 '07 White"
+        },
+        {
+          "url": "https://example.com/nike-air-force-1-black.jpg",
+          "alt": "Nike Air Force 1 '07 Black"
+        },
+        {
+          "url": "https://example.com/nike-air-force-1-detail.jpg",
+          "alt": "Nike Air Force 1 '07 Detail"
+        }
+      ],
+      "specifications": {
+        "material": "Leather Upper",
+        "outsole_material": "Rubber",
+        "closure": "Lace-up",
+        "style": "Low Top",
+        "features": ["Perforated Toe", "Padded Collar"]
+      },
+      "brand": "Nike",
+      "color": ["White", "Black", "Midnight Navy"],
+      "sizes": [
+        "7",
+        "7.5",
+        "8",
+        "8.5",
+        "9",
+        "9.5",
+        "10",
+        "10.5",
+        "11",
+        "11.5",
+        "12",
+        "13"
+      ],
+      "variants": [],
+      "reviews": [
+        {
+          "user": "Mike J.",
+          "rating": 5,
+          "comment": "Timeless classic.  Goes with everything."
+        },
+        {
+          "user": "Jessica L.",
+          "rating": 5,
+          "comment": "Great quality and very comfortable for all-day wear."
+        }
+      ],
+      "related_products": ["nike-air-max-90", "nike-blazer"]
+    },
+    {
+      "product_id": "ray-ban-aviator-classic",
+      "category": "Accessories",
+      "subcategory": "Sunglasses",
+      "name": "Ray-Ban Aviator Classic",
+      "description": "The iconic Ray-Ban Aviator Classic sunglasses, with their teardrop-shaped lenses and timeless style.  A symbol of cool.",
+      "price": 163.0,
+      "currency": "USD",
+      "stock_quantity": 80,
+      "images": [
+        {
+          "url": "https://example.com/rayban-aviator-gold-green.jpg",
+          "alt": "Ray-Ban Aviator Classic Gold/Green"
+        },
+        {
+          "url": "https://example.com/rayban-aviator-silver-grey.jpg",
+          "alt": "Ray-Ban Aviator Classic Silver/Grey"
+        },
+        {
+          "url": "https://example.com/rayban-aviator-detail.jpg",
+          "alt": "Ray-Ban Aviator Classic Detail"
+        }
+      ],
+      "specifications": {
+        "frame_material": "Metal",
+        "lens_material": "Glass",
+        "lens_color": ["Green Classic G-15", "Grey"],
+        "frame_color": ["Gold", "Silver", "Black"],
+        "protection": "100% UV Protection",
+        "style": "Aviator",
+        "temple_length": "135mm",
+        "lens_width": "58mm"
+      },
+      "brand": "Ray-Ban",
+      "color": ["Gold/Green", "Silver/Grey", "Black/Grey"],
+      "sizes": ["58mm", "62mm"],
+      "variants": [],
+      "reviews": [
+        {
+          "user": "Bob S.",
+          "rating": 5,
+          "comment": "The classic Aviators.  Always in style."
+        },
+        {
+          "user": "Alice R.",
+          "rating": 4,
+          "comment": "Great quality, but the fit can be tricky for some face shapes."
+        }
+      ],
+      "related_products": ["ray-ban-wayfarer", "oakley-sunglasses"]
+    },
+    {
+      "product_id": "michael-kors-jet-set-travel-tote",
+      "category": "Accessories",
+      "subcategory": "Totes",
+      "name": "Michael Kors Jet Set Travel Tote",
+      "description": "A stylish and spacious tote bag crafted from signature Saffiano leather.  Perfect for travel or everyday use.",
+      "price": 298.0,
+      "currency": "USD",
+      "stock_quantity": 60,
+      "images": [
+        {
+          "url": "https://example.com/michael-kors-tote-black.jpg",
+          "alt": "Michael Kors Jet Set Travel Tote Black"
+        },
+        {
+          "url": "https://example.com/michael-kors-tote-brown.jpg",
+          "alt": "Michael Kors Jet Set Travel Tote Brown"
+        },
+        {
+          "url": "https://example.com/michael-kors-tote-detail.jpg",
+          "alt": "Michael Kors Jet Set Travel Tote Detail"
+        }
+      ],
+      "specifications": {
+        "material": "Saffiano Leather",
+        "closure": "Zip-Top Closure",
+        "dimensions": "16.5\"L x 10.25\"H x 6\"W",
+        "handle_drop": "9\"",
+        "interior_pockets": "1 Zip Pocket, 2 Slip Pockets",
+        "exterior_details": "Signature Logo Charm"
+      },
+      "brand": "Michael Kors",
+      "color": ["Black", "Brown", "Navy", "Powder Blush"],
+      "variants": [],
+      "reviews": [
+        {
+          "user": "Laura G.",
+          "rating": 5,
+          "comment": "Love this tote!  It's so roomy and stylish."
+        },
+        {
+          "user": "Emily P.",
+          "rating": 4,
+          "comment": "Great quality, but wish it had a shoulder strap."
+        }
+      ],
+      "related_products": ["michael-kors-wallet", "coach-tote"]
+    },
+    {
+      "product_id": "jcrew-classic-cashmere-sweater",
+      "category": "Clothing",
+      "subcategory": "Sweaters",
+      "name": "J.Crew Classic Cashmere Sweater",
+      "description": "A luxuriously soft and timeless cashmere sweater.  An essential for any wardrobe.",
+      "price": 128.0,
+      "currency": "USD",
+      "stock_quantity": 45,
+      "images": [
+        {
+          "url": "https://example.com/jcrew-cashmere-sweater-heather-grey.jpg",
+          "alt": "J.Crew Classic Cashmere Sweater Heather Grey"
+        },
+        {
+          "url": "https://example.com/jcrew-cashmere-sweater-navy.jpg",
+          "alt": "J.Crew Classic Cashmere Sweater Navy"
+        },
+        {
+          "url": "https://example.com/jcrew-cashmere-sweater-detail.jpg",
+          "alt": "J.Crew Classic Cashmere Sweater Detail"
+        }
+      ],
+      "specifications": {
+        "material": "100% Cashmere",
+        "fit": "Classic Fit",
+        "neckline": "Crew Neck",
+        "sleeve_length": "Long Sleeve",
+        "gauge": "12-gauge"
+      },
+      "brand": "J.Crew",
+      "color": ["Heather Grey", "Navy", "Black", "Camel", "Burgundy"],
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "variants": [],
+      "reviews": [
+        {
+          "user": "David C.",
+          "rating": 5,
+          "comment": "The perfect cashmere sweater.  So soft and well-made."
+        },
+        {
+          "user": "Susan H.",
+          "rating": 5,
+          "comment": "Great quality for the price.  I bought it in multiple colors."
+        }
+      ],
+      "related_products": ["jcrew-chinos", "jcrew-button-down"]
+    },
+    {
+      "product_id": "madewell-perfect-denim-jacket",
+      "category": "Clothing",
+      "subcategory": "Outerwear",
+      "name": "Madewell Perfect Denim Jacket",
+      "description": "A classic, slightly oversized denim jacket made from comfortable, durable denim.  The perfect layering piece.",
+      "price": 128.0,
+      "currency": "USD",
+      "stock_quantity": 55,
+      "images": [
+        {
+          "url": "https://example.com/madewell-denim-jacket-med-wash.jpg",
+          "alt": "Madewell Perfect Denim Jacket Medium Wash"
+        },
+        {
+          "url": "https://example.com/madewell-denim-jacket-dark-wash.jpg",
+          "alt": "Madewell Perfect Denim Jacket Dark Wash"
+        },
+        {
+          "url": "https://example.com/madewell-denim-jacket-detail.jpg",
+          "alt": "Madewell Perfect Denim Jacket Detail"
+        }
+      ],
+      "specifications": {
+        "material": "99% Cotton, 1% Elastane",
+        "fit": "Slightly Oversized",
+        "closure": "Button Front",
+        "sleeve_length": "Long Sleeve",
+        "pocket_type": "Chest Pockets, Side Pockets"
+      },
+      "brand": "Madewell",
+      "color": ["Medina Wash", "Dark Indigo Wash"],
+      "sizes": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+      "variants": [],
+      "reviews": [
+        {
+          "user": "Jennifer A.",
+          "rating": 5,
+          "comment": "The perfect denim jacket!  Great fit and quality."
+        },
+        {
+          "user": "Michelle Y.",
+          "rating": 4,
+          "comment": "Love the style, but it runs a little big."
+        }
+      ],
+      "related_products": ["madewell-jeans", "madewell-t-shirt"]
+    },
+    {
+      "product_id": "common-projects-achilles-low",
+      "category": "Footwear",
+      "subcategory": "Sneakers",
+      "name": "Common Projects Achilles Low",
+      "description": "Minimalist and luxurious leather sneakers, handcrafted in Italy.  Known for their clean design and high-quality materials.",
+      "price": 410.0,
+      "currency": "USD",
+      "stock_quantity": 20,
+      "images": [
+        {
+          "url": "https://example.com/common-projects-achilles-white.jpg",
+          "alt": "Common Projects Achilles Low White"
+        },
+        {
+          "url": "https://example.com/common-projects-achilles-black.jpg",
+          "alt": "Common Projects Achilles Low Black"
+        },
+        {
+          "url": "https://example.com/common-projects-achilles-detail.jpg",
+          "alt": "Common Projects Achilles Low Detail"
+        }
+      ],
+      "specifications": {
+        "material": "Italian Leather Upper",
+        "outsole_material": "Rubber",
+        "closure": "Lace-up",
+        "style": "Low Top",
+        "features": ["Gold Stamped Serial Number"]
+      },
+      "brand": "Common Projects",
+      "color": ["White", "Black", "Grey"],
+      "sizes": ["39", "40", "41", "42", "43", "44", "45"],
+      "variants": [],
+      "reviews": [
+        {
+          "user": "Kevin R.",
+          "rating": 5,
+          "comment": "The best sneakers I've ever owned.  Worth the investment."
+        },
+        {
+          "user": "Daniel P.",
+          "rating": 5,
+          "comment": "Clean, classic, and incredibly well-made."
+        }
+      ],
+      "related_products": ["saint-laurent-sneakers", "gucci-loafers"]
+    },
+    {
+      "product_id": "everlane-the-day-glove",
+      "category": "Footwear",
+      "subcategory": "Flats",
+      "name": "Everlane The Day Glove",
+      "description": "A comfortable and versatile leather flat, designed for all-day wear.  Made from soft Italian leather.",
+      "price": 115.0,
+      "currency": "USD",
+      "stock_quantity": 70,
+      "images": [
+        {
+          "url": "https://example.com/everlane-day-glove-black.jpg",
+          "alt": "Everlane The Day Glove Black"
+        },
+        {
+          "url": "https://example.com/everlane-day-glove-nude.jpg",
+          "alt": "Everlane The Day Glove Nude"
+        },
+        {
+          "url": "https://example.com/everlane-day-glove-detail.jpg",
+          "alt": "Everlane The Day Glove Detail"
+        }
+      ],
+      "specifications": {
+        "material": "Italian Leather Upper",
+        "outsole_material": "Rubber",
+        "closure": "Slip-on",
+        "style": "Flat",
+        "features": ["Elasticized Back", "Cushioned Insole"]
+      },
+      "brand": "Everlane",
+      "color": ["Black", "Nude", "Red", "Mustard"],
+      "sizes": [
+        "5",
+        "5.5",
+        "6",
+        "6.5",
+        "7",
+        "7.5",
+        "8",
+        "8.5",
+        "9",
+        "9.5",
+        "10",
+        "10.5",
+        "11"
+      ],
+      "variants": [],
+      "reviews": [
+        {
+          "user": "Emily R.",
+          "rating": 5,
+          "comment": "The most comfortable flats I've ever worn!"
+        },
+        {
+          "user": "Jessica B.",
+          "rating": 4,
+          "comment": "Great for work, but they run a little small."
+        }
+      ],
+      "related_products": ["everlane-loafer", "everlane-tote"]
+    }
+  ]
+}

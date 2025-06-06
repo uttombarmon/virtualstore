@@ -1,0 +1,759 @@
+[
+  {
+    "product_id": "iphone-15-pro-max-256",
+    "category": "iPhone",
+    "name": "iPhone 15 Pro Max",
+    "model": "A3010",
+    "description": "The best iPhone ever. Featuring the A17 Bionic chip, a new Action button, and a more advanced Pro camera system.",
+    "price": 1199.0,
+    "currency": "USD",
+    "stock_quantity": 50,
+    "images": ["iphone-15-pro-max-front.jpg", "iphone-15-pro-max-back.jpg"],
+    "specifications": {
+      "display": "6.7-inch Super Retina XDR display with ProMotion",
+      "chip": "A17 Bionic chip",
+      "storage": ["256GB", "512GB", "1TB"],
+      "camera": "Pro camera system (48MP Main, Ultra Wide, Telephoto)",
+      "connectivity": "5G, Wi-Fi 6E, Bluetooth 5.3",
+      "operating_system": "iOS 17"
+    },
+    "colors": [
+      "Natural Titanium",
+      "Blue Titanium",
+      "White Titanium",
+      "Black Titanium"
+    ],
+    "variants": [
+      { "storage": "256GB", "color": "Natural Titanium", "price": 1199.0 },
+      { "storage": "512GB", "color": "Natural Titanium", "price": 1299.0 },
+      { "storage": "256GB", "color": "Blue Titanium", "price": 1199.0 }
+    ],
+    "reviews": [
+      {
+        "user_id": "user123",
+        "rating": 5,
+        "comment": "Amazing phone! The camera is incredible."
+      },
+      {
+        "user_id": "user456",
+        "rating": 4,
+        "comment": "Great performance, but the price is high."
+      }
+    ],
+    "related_products": ["airpods-pro-2", "apple-watch-ultra-2"]
+  },
+  {
+    "product_id": "macbook-air-m3-13",
+    "category": "Mac",
+    "name": "MacBook Air 13-inch",
+    "model": "M3",
+    "description": "The incredibly thin and light MacBook Air is now even more powerful with the M3 chip.",
+    "price": 1099.0,
+    "currency": "USD",
+    "stock_quantity": 30,
+    "images": ["macbook-air-13-silver.jpg", "macbook-air-13-keyboard.jpg"],
+    "specifications": {
+      "display": "13.6-inch Liquid Retina display",
+      "chip": "Apple M3 chip",
+      "memory": ["8GB", "16GB", "24GB"],
+      "storage": ["256GB SSD", "512GB SSD", "1TB SSD", "2TB SSD"],
+      "graphics": "10-core GPU",
+      "ports": "Two Thunderbolt / USB 4 ports",
+      "operating_system": "macOS Sonoma"
+    },
+    "colors": ["Silver", "Space Gray", "Starlight", "Midnight"],
+    "variants": [
+      {
+        "memory": "8GB",
+        "storage": "256GB SSD",
+        "color": "Silver",
+        "price": 1099.0
+      },
+      {
+        "memory": "16GB",
+        "storage": "512GB SSD",
+        "color": "Space Gray",
+        "price": 1299.0
+      }
+    ],
+    "reviews": [
+      {
+        "user_id": "user789",
+        "rating": 5,
+        "comment": "Fast and efficient. Perfect for everyday use."
+      }
+    ],
+    "related_products": ["magic-mouse", "external-ssd"]
+  },
+  {
+    "product_id": "apple-watch-series-9",
+    "category": "Apple Watch",
+    "name": "Apple Watch Series 9",
+    "description": "A powerful health companion. New features include double tap and a brighter display.",
+    "price": 399.0,
+    "currency": "USD",
+    "stock_quantity": 100,
+    "images": [
+      "apple-watch-series-9-blue.jpg",
+      "apple-watch-series-9-wrist.jpg"
+    ],
+    "specifications": {
+      "display": "Always-On Retina display",
+      "chip": "S9 SiP",
+      "connectivity": "GPS, GPS + Cellular",
+      "features": ["Blood Oxygen sensor", "ECG app", "Fall detection"],
+      "water_resistance": "Water resistant to 50 meters"
+    },
+    "colors": ["Starlight", "Midnight", "Silver", "Pink", "PRODUCT(RED)"],
+    "sizes": ["41mm", "45mm"],
+    "variants": [
+      {
+        "size": "41mm",
+        "color": "Starlight",
+        "connectivity": "GPS",
+        "price": 399.0
+      },
+      {
+        "size": "45mm",
+        "color": "Midnight",
+        "connectivity": "GPS + Cellular",
+        "price": 499.0
+      }
+    ],
+    "reviews": [],
+    "related_products": ["airpods-3", "apple-watch-bands"]
+  },
+  {
+    "product_id": "airpods-pro-2",
+    "category": "AirPods",
+    "name": "AirPods Pro (2nd generation)",
+    "description": "Next-level active noise cancellation and personalized spatial audio.",
+    "price": 249.0,
+    "currency": "USD",
+    "stock_quantity": 80,
+    "images": ["airpods-pro-2.jpg"],
+    "specifications": {
+      "audio_technology": "Active Noise Cancellation, Transparency mode, Personalized Spatial Audio",
+      "connectivity": "Bluetooth 5.3",
+      "chip": "Apple H2 headphone chip",
+      "controls": "Touch control",
+      "case": "MagSafe Charging Case"
+    },
+    "reviews": [
+      {
+        "user_id": "user1011",
+        "rating": 5,
+        "comment": "Best earbuds I've ever owned. ANC is top-notch."
+      }
+    ],
+    "related_products": ["wireless-charger"]
+  },
+  {
+    "product_id": "ipad-pro-12-9-m2",
+    "category": "iPad",
+    "name": "iPad Pro 12.9-inch",
+    "model": "M2 chip",
+    "description": "The ultimate iPad experience with the powerful M2 chip and stunning Liquid Retina XDR display.",
+    "price": 1099.0,
+    "currency": "USD",
+    "stock_quantity": 40,
+    "images": ["ipad-pro-12-9.jpg"],
+    "specifications": {
+      "display": "12.9-inch Liquid Retina XDR display",
+      "chip": "Apple M2 chip",
+      "storage": ["128GB", "256GB", "512GB", "1TB", "2TB"],
+      "connectivity": "Wi-Fi 6E, 5G (optional)",
+      "ports": "Thunderbolt / USB 4 port"
+    },
+    "variants": [
+      { "storage": "256GB", "connectivity": "Wi-Fi", "price": 1199.0 },
+      { "storage": "512GB", "connectivity": "5G", "price": 1399.0 }
+    ],
+    "reviews": [],
+    "related_products": ["apple-pencil-2", "smart-keyboard-folio"]
+  },
+  {
+    "product_id": "galaxy-s24-ultra-512",
+    "category": "Smartphones",
+    "name": "Samsung Galaxy S24 Ultra",
+    "model": "SM-S928B",
+    "description": "The most powerful Galaxy yet. Featuring a built-in S Pen, advanced camera system, and dynamic AMOLED 2X display.",
+    "price": 1299.99,
+    "currency": "USD",
+    "stock_quantity": 40,
+    "images": [
+      "galaxy-s24-ultra-black-front.jpg",
+      "galaxy-s24-ultra-black-back.jpg"
+    ],
+    "specifications": {
+      "display": "6.8-inch Dynamic AMOLED 2X display",
+      "processor": "Snapdragon 8 Gen 3 for Galaxy",
+      "memory": "12GB RAM",
+      "storage": ["256GB", "512GB", "1TB"],
+      "camera": "200MP Wide camera, Ultra Wide, Telephoto",
+      "connectivity": "5G, Wi-Fi 7, Bluetooth 5.3",
+      "operating_system": "Android 14"
+    },
+    "colors": ["Phantom Black", "Cream", "Green", "Lavender"],
+    "variants": [
+      { "storage": "256GB", "color": "Phantom Black", "price": 1299.99 },
+      { "storage": "512GB", "color": "Cream", "price": 1399.99 },
+      { "storage": "1TB", "color": "Green", "price": 1599.99 }
+    ],
+    "reviews": [
+      {
+        "user_id": "user202",
+        "rating": 5,
+        "comment": "The camera is amazing, and the S Pen is so useful!"
+      },
+      {
+        "user_id": "user203",
+        "rating": 4,
+        "comment": "Great phone, but a bit pricey."
+      }
+    ],
+    "related_products": ["galaxy-buds-pro-2", "galaxy-watch-5"]
+  },
+  {
+    "product_id": "galaxy-z-fold5-512",
+    "category": "Foldable Phones",
+    "name": "Samsung Galaxy Z Fold5",
+    "model": "SM-F946B",
+    "description": "The revolutionary foldable phone. Work, play, and create like never before.",
+    "price": 1799.0,
+    "currency": "USD",
+    "stock_quantity": 20,
+    "images": [
+      "galaxy-z-fold5-black-unfolded.jpg",
+      "galaxy-z-fold5-black-folded.jpg"
+    ],
+    "specifications": {
+      "main_display": "7.6-inch Dynamic AMOLED 2X",
+      "cover_display": "6.2-inch Dynamic AMOLED 2X",
+      "processor": "Snapdragon 8 Gen 2 for Galaxy",
+      "memory": "12GB RAM",
+      "storage": ["256GB", "512GB", "1TB"],
+      "camera": "50MP Wide camera, Ultra Wide, Telephoto",
+      "connectivity": "5G, Wi-Fi 6E, Bluetooth 5.3",
+      "operating_system": "Android 13"
+    },
+    "colors": ["Phantom Black", "Cream", "Icy Blue"],
+    "variants": [
+      { "storage": "256GB", "color": "Phantom Black", "price": 1799.0 },
+      { "storage": "512GB", "color": "Cream", "price": 1899.0 }
+    ],
+    "reviews": [
+      {
+        "user_id": "user301",
+        "rating": 5,
+        "comment": "The foldable design is amazing! So versatile."
+      }
+    ],
+    "related_products": ["galaxy-buds2-pro", "s-pen-fold-edition"]
+  },
+  {
+    "product_id": "galaxy-tab-s9-ultra",
+    "category": "Tablets",
+    "name": "Samsung Galaxy Tab S9 Ultra",
+    "model": "SM-X910",
+    "description": "The ultimate tablet for productivity and entertainment. Featuring a large Dynamic AMOLED 2X display and S Pen support.",
+    "price": 1199.0,
+    "currency": "USD",
+    "stock_quantity": 30,
+    "images": ["galaxy-tab-s9-ultra-graphite.jpg"],
+    "specifications": {
+      "display": "14.6-inch Dynamic AMOLED 2X display",
+      "processor": "Snapdragon 8 Gen 2 for Galaxy",
+      "memory": "12GB RAM",
+      "storage": ["256GB", "512GB", "1TB"],
+      "connectivity": "Wi-Fi 6E, 5G (optional)",
+      "ports": "USB Type-C"
+    },
+    "colors": ["Graphite", "Beige"],
+    "variants": [
+      { "storage": "256GB", "connectivity": "Wi-Fi", "price": 1199.0 },
+      { "storage": "512GB", "connectivity": "5G", "price": 1399.0 }
+    ],
+    "reviews": [],
+    "related_products": ["s-pen", "book-cover-keyboard"]
+  },
+  {
+    "product_id": "galaxy-watch-6-classic",
+    "category": "Wearables",
+    "name": "Samsung Galaxy Watch 6 Classic",
+    "description": "A stylish and powerful smartwatch with advanced health tracking and seamless connectivity.",
+    "price": 399.0,
+    "currency": "USD",
+    "stock_quantity": 50,
+    "images": ["galaxy-watch-6-classic-black.jpg"],
+    "specifications": {
+      "display": "Super AMOLED display",
+      "processor": "Exynos W930 Dual-Core",
+      "memory": "2GB RAM",
+      "storage": "16GB",
+      "connectivity": "Bluetooth 5.3, Wi-Fi",
+      "health_features": [
+        "Heart rate monitoring",
+        "Blood oxygen monitoring",
+        "Sleep tracking"
+      ]
+    },
+    "sizes": ["43mm", "47mm"],
+    "colors": ["Black", "Silver"],
+    "variants": [
+      {
+        "size": "43mm",
+        "color": "Black",
+        "connectivity": "Bluetooth",
+        "price": 399.0
+      },
+      {
+        "size": "47mm",
+        "color": "Silver",
+        "connectivity": "Bluetooth",
+        "price": 429.0
+      }
+    ],
+    "reviews": [
+      {
+        "user_id": "user404",
+        "rating": 4,
+        "comment": "Looks great and has excellent health features."
+      }
+    ],
+    "related_products": ["wireless-charger", "watch-bands"]
+  },
+  {
+    "product_id": "galaxy-buds2-pro",
+    "category": "Audio",
+    "name": "Samsung Galaxy Buds2 Pro",
+    "description": "Premium wireless earbuds with intelligent active noise cancellation and immersive sound.",
+    "price": 199.0,
+    "currency": "USD",
+    "stock_quantity": 60,
+    "images": ["galaxy-buds2-pro-graphite.jpg"],
+    "specifications": {
+      "audio_technology": "Active Noise Cancellation (ANC), Ambient Sound mode",
+      "connectivity": "Bluetooth 5.3",
+      "audio_quality": "24-bit Hi-Fi audio",
+      "controls": "Touch control",
+      "water_resistance": "IPX7"
+    },
+    "colors": ["Graphite", "White", "Bora Purple"],
+    "reviews": [],
+    "related_products": ["wireless-charger"]
+  },
+  {
+    "product_id": "vivo-x100-pro",
+    "category": "Smartphones",
+    "name": "Vivo X100 Pro",
+    "description": "A flagship smartphone with a powerful camera system co-engineered with ZEISS, delivering exceptional image quality.",
+    "price": 899.0,
+    "currency": "USD",
+    "stock_quantity": 30,
+    "images": ["vivo-x100-pro-black-front.jpg", "vivo-x100-pro-black-back.jpg"],
+    "specifications": {
+      "display": "6.78-inch AMOLED display",
+      "processor": "Dimensity 9300",
+      "memory": "12GB RAM",
+      "storage": ["256GB", "512GB"],
+      "camera": "50MP Main camera, Ultra-Wide, Telephoto (ZEISS optics)",
+      "connectivity": "5G, Wi-Fi 7, Bluetooth 5.4",
+      "operating_system": "Funtouch OS 14 (based on Android 14)"
+    },
+    "colors": ["Asteroid Black", "Sunset Cruise", "Star Trail Blue"],
+    "variants": [
+      { "storage": "256GB", "color": "Asteroid Black", "price": 899.0 },
+      { "storage": "512GB", "color": "Sunset Cruise", "price": 999.0 }
+    ],
+    "reviews": [
+      {
+        "user_id": "user501",
+        "rating": 5,
+        "comment": "The camera quality is outstanding! Photos are so clear."
+      },
+      {
+        "user_id": "user502",
+        "rating": 4,
+        "comment": "Great performance and battery life."
+      }
+    ],
+    "related_products": ["vivo-tws-3", "vivo-wireless-charger"]
+  },
+  {
+    "product_id": "vivo-v29-pro",
+    "category": "Smartphones",
+    "name": "Vivo V29 Pro",
+    "description": "A stylish smartphone with a focus on portrait photography, featuring a unique Aura Light Portrait feature.",
+    "price": 549.0,
+    "currency": "USD",
+    "stock_quantity": 50,
+    "images": [
+      "vivo-v29-pro-himalayan-blue.jpg",
+      "vivo-v29-pro-space-black.jpg"
+    ],
+    "specifications": {
+      "display": "6.78-inch AMOLED display",
+      "processor": "Snapdragon 778G+",
+      "memory": "8GB RAM",
+      "storage": ["128GB", "256GB"],
+      "camera": "50MP Main camera, Portrait camera (with Aura Light)",
+      "connectivity": "5G, Wi-Fi 6, Bluetooth 5.2",
+      "operating_system": "Funtouch OS 13 (based on Android 13)"
+    },
+    "colors": ["Himalayan Blue", "Space Black"],
+    "variants": [
+      { "storage": "128GB", "color": "Himalayan Blue", "price": 549.0 },
+      { "storage": "256GB", "color": "Space Black", "price": 599.0 }
+    ],
+    "reviews": [
+      {
+        "user_id": "user601",
+        "rating": 4,
+        "comment": "The portrait mode is excellent! I love the Aura Light."
+      }
+    ],
+    "related_products": ["vivo-tws-air", "vivo-earphones"]
+  },
+  {
+    "product_id": "vivo-y36",
+    "category": "Smartphones",
+    "name": "Vivo Y36",
+    "description": "An affordable smartphone with a stylish design and a focus on everyday performance.",
+    "price": 249.0,
+    "currency": "USD",
+    "stock_quantity": 80,
+    "images": ["vivo-y36-meteor-black.jpg", "vivo-y36-vibrant-gold.jpg"],
+    "specifications": {
+      "display": "6.64-inch LCD display",
+      "processor": "Snapdragon 680",
+      "memory": "4GB RAM",
+      "storage": ["128GB"],
+      "camera": "50MP Main camera",
+      "connectivity": "4G LTE, Wi-Fi, Bluetooth 5.1",
+      "operating_system": "Funtouch OS 13 (based on Android 13)"
+    },
+    "colors": ["Meteor Black", "Vibrant Gold"],
+    "variants": [
+      { "storage": "128GB", "color": "Meteor Black", "price": 249.0 },
+      { "storage": "128GB", "color": "Vibrant Gold", "price": 249.0 }
+    ],
+    "reviews": [],
+    "related_products": ["vivo-earbuds"]
+  },
+  {
+    "product_id": "vivo-tws-3",
+    "category": "Audio",
+    "name": "Vivo TWS 3",
+    "description": "True wireless stereo earbuds with high-quality audio and active noise cancellation.",
+    "price": 149.0,
+    "currency": "USD",
+    "stock_quantity": 40,
+    "images": ["vivo-tws-3-starry-blue.jpg"],
+    "specifications": {
+      "audio_technology": "Active Noise Cancellation (ANC), Transparency mode",
+      "connectivity": "Bluetooth 5.3",
+      "audio_codec": "aptX Adaptive",
+      "battery_life": "Up to 32 hours (with charging case)",
+      "controls": "Touch control"
+    },
+    "colors": ["Starry Blue", "Moon White"],
+    "reviews": [],
+    "related_products": ["wireless-charger"]
+  },
+  {
+    "product_id": "realme-gt5-pro",
+    "category": "Smartphones",
+    "name": "Realme GT5 Pro",
+    "description": "A high-performance flagship smartphone with a focus on gaming and photography.",
+    "price": 699.0,
+    "currency": "USD",
+    "stock_quantity": 25,
+    "images": ["realme-gt5-pro-red-front.jpg", "realme-gt5-pro-red-back.jpg"],
+    "specifications": {
+      "display": "6.78-inch AMOLED display",
+      "processor": "Snapdragon 8 Gen 3",
+      "memory": "12GB RAM",
+      "storage": ["256GB", "512GB", "1TB"],
+      "camera": "50MP Main camera, Ultra-Wide, Telephoto",
+      "connectivity": "5G, Wi-Fi 7, Bluetooth 5.4",
+      "operating_system": "Realme UI 5.0 (based on Android 14)"
+    },
+    "colors": ["Red Rock", "Starry Night", "Daybreak Wonder"],
+    "variants": [
+      { "storage": "256GB", "color": "Red Rock", "price": 699.0 },
+      { "storage": "512GB", "color": "Starry Night", "price": 799.0 },
+      { "storage": "1TB", "color": "Daybreak Wonder", "price": 899.0 }
+    ],
+    "reviews": [
+      {
+        "user_id": "user701",
+        "rating": 5,
+        "comment": "Excellent gaming performance and the camera is great!"
+      },
+      {
+        "user_id": "user702",
+        "rating": 4,
+        "comment": "Fast charging is a game-changer."
+      }
+    ],
+    "related_products": ["realme-buds-air-5", "realme-watch-3"]
+  },
+  {
+    "product_id": "realme-11-pro-plus",
+    "category": "Smartphones",
+    "name": "Realme 11 Pro+",
+    "description": "A stylish mid-range smartphone with a high-resolution camera and fast charging.",
+    "price": 449.0,
+    "currency": "USD",
+    "stock_quantity": 40,
+    "images": [
+      "realme-11-pro-plus-sunrise-beige.jpg",
+      "realme-11-pro-plus-oasis-green.jpg"
+    ],
+    "specifications": {
+      "display": "6.7-inch AMOLED display",
+      "processor": "Dimensity 7050",
+      "memory": "8GB RAM",
+      "storage": ["128GB", "256GB"],
+      "camera": "200MP Main camera",
+      "connectivity": "5G, Wi-Fi 6, Bluetooth 5.2",
+      "operating_system": "Realme UI 4.0 (based on Android 13)"
+    },
+    "colors": ["Sunrise Beige", "Oasis Green", "Astral Black"],
+    "variants": [
+      { "storage": "128GB", "color": "Sunrise Beige", "price": 449.0 },
+      { "storage": "256GB", "color": "Oasis Green", "price": 499.0 }
+    ],
+    "reviews": [
+      {
+        "user_id": "user801",
+        "rating": 4,
+        "comment": "The camera is impressive for the price."
+      }
+    ],
+    "related_products": ["realme-buds-air-4", "realme-band-2"]
+  },
+  {
+    "product_id": "realme-c55",
+    "category": "Smartphones",
+    "name": "Realme C55",
+    "description": "An entry-level smartphone with a large display and long battery life.",
+    "price": 199.0,
+    "currency": "USD",
+    "stock_quantity": 60,
+    "images": ["realme-c55-rainy-night.jpg", "realme-c55-sunshower.jpg"],
+    "specifications": {
+      "display": "6.72-inch LCD display",
+      "processor": "MediaTek Helio G88",
+      "memory": "6GB RAM",
+      "storage": ["64GB", "128GB"],
+      "camera": "64MP Main camera",
+      "connectivity": "4G LTE, Wi-Fi, Bluetooth 5.2",
+      "operating_system": "Realme UI 4.0 (based on Android 13)"
+    },
+    "colors": ["Rainy Night", "Sunshower", "Rainforest"],
+    "variants": [
+      { "storage": "64GB", "color": "Rainy Night", "price": 199.0 },
+      { "storage": "128GB", "color": "Sunshower", "price": 229.0 }
+    ],
+    "reviews": [],
+    "related_products": ["realme-buds-q2s"]
+  },
+  {
+    "product_id": "realme-buds-air-5-pro",
+    "category": "Audio",
+    "name": "Realme Buds Air 5 Pro",
+    "description": "Wireless earbuds with active noise cancellation and high-resolution audio.",
+    "price": 89.0,
+    "currency": "USD",
+    "stock_quantity": 30,
+    "images": ["realme-buds-air-5-pro-sunrise-beige.jpg"],
+    "specifications": {
+      "audio_technology": "Active Noise Cancellation (ANC), Transparency mode",
+      "connectivity": "Bluetooth 5.3",
+      "audio_codec": "LDAC",
+      "battery_life": "Up to 40 hours (with charging case)",
+      "controls": "Touch control"
+    },
+    "colors": ["Sunrise Beige", "Starry Black"],
+    "reviews": [],
+    "related_products": ["wireless-charger"]
+  },
+  {
+    "product_id": "lenovo-thinkpad-x1-carbon-gen11",
+    "category": "Laptops",
+    "name": "Lenovo ThinkPad X1 Carbon Gen 11",
+    "description": "A premium business laptop known for its lightweight design, durability, and performance.",
+    "price": 1599.0,
+    "currency": "USD",
+    "stock_quantity": 20,
+    "images": [
+      "lenovo-thinkpad-x1-carbon-gen11-front.jpg",
+      "lenovo-thinkpad-x1-carbon-gen11-keyboard.jpg"
+    ],
+    "specifications": {
+      "display": "14-inch WUXGA (1920 x 1200) IPS display",
+      "processor": "Intel Core i7-1365U",
+      "memory": "16GB LPDDR5 RAM",
+      "storage": ["512GB SSD", "1TB SSD"],
+      "graphics": "Intel Iris Xe Graphics",
+      "connectivity": "Wi-Fi 6E, Bluetooth 5.3, Thunderbolt 4",
+      "operating_system": "Windows 11 Pro"
+    },
+    "colors": ["Carbon Black"],
+    "variants": [
+      {
+        "storage": "512GB SSD",
+        "processor": "Intel Core i5",
+        "memory": "16GB RAM",
+        "price": 1599.0
+      },
+      {
+        "storage": "1TB SSD",
+        "processor": "Intel Core i7",
+        "memory": "16GB RAM",
+        "price": 1899.0
+      }
+    ],
+    "reviews": [
+      {
+        "user_id": "user901",
+        "rating": 5,
+        "comment": "Excellent keyboard and build quality. Perfect for work."
+      },
+      {
+        "user_id": "user902",
+        "rating": 4,
+        "comment": "Lightweight and powerful, but battery life could be better."
+      }
+    ],
+    "related_products": ["lenovo-docking-station", "external-monitor"]
+  },
+  {
+    "product_id": "lenovo-legion-pro-5i",
+    "category": "Laptops",
+    "name": "Lenovo Legion Pro 5i",
+    "description": "A gaming laptop designed for high performance and immersive gaming experiences.",
+    "price": 1399.0,
+    "currency": "USD",
+    "stock_quantity": 15,
+    "images": [
+      "lenovo-legion-pro-5i-front.jpg",
+      "lenovo-legion-pro-5i-keyboard.jpg"
+    ],
+    "specifications": {
+      "display": "16-inch WQXGA (2560 x 1600) IPS display, 165Hz",
+      "processor": "Intel Core i7-13700HX",
+      "memory": "16GB DDR5 RAM",
+      "storage": ["512GB SSD", "1TB SSD"],
+      "graphics": "NVIDIA GeForce RTX 4060",
+      "connectivity": "Wi-Fi 6E, Bluetooth 5.2, Thunderbolt 4",
+      "operating_system": "Windows 11 Home"
+    },
+    "colors": ["Onyx Grey"],
+    "variants": [
+      {
+        "graphics": "NVIDIA GeForce RTX 4050",
+        "storage": "512GB SSD",
+        "price": 1399.0
+      },
+      {
+        "graphics": "NVIDIA GeForce RTX 4060",
+        "storage": "1TB SSD",
+        "price": 1599.0
+      }
+    ],
+    "reviews": [
+      {
+        "user_id": "user1001",
+        "rating": 5,
+        "comment": "Runs games smoothly and the display is beautiful."
+      }
+    ],
+    "related_products": ["gaming-mouse", "gaming-headset"]
+  },
+  {
+    "product_id": "lenovo-ideapad-slim-5",
+    "category": "Laptops",
+    "name": "Lenovo IdeaPad Slim 5",
+    "description": "A thin and light laptop for everyday use, offering a balance of performance and portability.",
+    "price": 749.0,
+    "currency": "USD",
+    "stock_quantity": 30,
+    "images": [
+      "lenovo-ideapad-slim-5-front.jpg",
+      "lenovo-ideapad-slim-5-keyboard.jpg"
+    ],
+    "specifications": {
+      "display": "14-inch FHD (1920 x 1080) IPS display",
+      "processor": "AMD Ryzen 5 7530U",
+      "memory": "8GB DDR4 RAM",
+      "storage": ["256GB SSD", "512GB SSD"],
+      "graphics": "AMD Radeon Graphics",
+      "connectivity": "Wi-Fi 6, Bluetooth 5.1, USB-C",
+      "operating_system": "Windows 11 Home"
+    },
+    "colors": ["Cloud Grey", "Abyss Blue"],
+    "variants": [
+      { "processor": "AMD Ryzen 3", "storage": "256GB SSD", "price": 749.0 },
+      { "processor": "AMD Ryzen 5", "storage": "512GB SSD", "price": 849.0 }
+    ],
+    "reviews": [],
+    "related_products": ["laptop-bag", "wireless-mouse"]
+  },
+  {
+    "product_id": "lenovo-tab-p11-pro-gen2",
+    "category": "Tablets",
+    "name": "Lenovo Tab P11 Pro Gen 2",
+    "description": "A premium Android tablet with a vibrant OLED display and powerful performance.",
+    "price": 499.0,
+    "currency": "USD",
+    "stock_quantity": 25,
+    "images": ["lenovo-tab-p11-pro-gen2.jpg"],
+    "specifications": {
+      "display": "11.2-inch OLED display (2560 x 1536)",
+      "processor": "MediaTek Kompanio 1300T",
+      "memory": "8GB RAM",
+      "storage": ["128GB", "256GB"],
+      "connectivity": "Wi-Fi 6, Bluetooth 5.1",
+      "operating_system": "Android 12L"
+    },
+    "colors": ["Storm Grey"],
+    "variants": [
+      { "storage": "128GB", "price": 499.0 },
+      { "storage": "256GB", "price": 549.0 }
+    ],
+    "reviews": [],
+    "related_products": ["lenovo-precision-pen-2", "keyboard-pack"]
+  },
+  {
+    "product_id": "lenovo-ideacentre-aio-3i",
+    "category": "Desktops",
+    "name": "Lenovo IdeaCentre AIO 3i",
+    "description": "An all-in-one desktop computer that saves space and offers a sleek design.",
+    "price": 899.0,
+    "currency": "USD",
+    "stock_quantity": 10,
+    "images": ["lenovo-ideacentre-aio-3i.jpg"],
+    "specifications": {
+      "display": "27-inch FHD (1920 x 1080) display",
+      "processor": "Intel Core i5-1240P",
+      "memory": "16GB DDR4 RAM",
+      "storage": ["512GB SSD", "1TB HDD"],
+      "graphics": "Intel Iris Xe Graphics",
+      "operating_system": "Windows 11 Home"
+    },
+    "colors": ["Black", "White"],
+    "variants": [
+      { "processor": "Intel Core i3", "storage": "256GB SSD", "price": 899.0 },
+      {
+        "processor": "Intel Core i5",
+        "storage": "512GB SSD + 1TB HDD",
+        "price": 999.0
+      }
+    ],
+    "reviews": [],
+    "related_products": ["wireless-keyboard-mouse-combo"]
+  }
+]

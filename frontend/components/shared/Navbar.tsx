@@ -2,7 +2,6 @@
 import logo from "@/public/logo.png";
 import { Search } from "@mui/icons-material";
 import { alpha, AppBar, Box, InputBase, styled, Toolbar } from "@mui/material";
-import { motion } from "motion/react";
 import Image from "next/image";
 import MenuButton from "./Navbar/MenuButton";
 import MenuLink from "./Navbar/MenuLink";
@@ -48,35 +47,32 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 }));
 export default function Navbar() {
   return (
-    <motion.div
-      initial={{ y: -50, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.8 }}
-    >
-      <Box sx={{ flexGrow: 1 }} className="">
-        <AppBar className=" bg-amber-200">
-          <Toolbar className=" bg-white flex justify-between text-black">
-            <div>
-              <Image
-                src={logo}
-                alt="Virtual Store Logo"
-                className=" font-[family-name:var(--font-open-sans)] font-bold text-lg h-12 w-24 bg-cover"
-              />
-            </div>
-            <MenuLink />
-            <SearchC>
-              <SearchIconWrapper>
-                <Search />
-              </SearchIconWrapper>
-              <StyledInputBase
-                placeholder="Search…"
-                inputProps={{ "aria-label": "search" }}
-              />
-            </SearchC>
-            <MenuButton />
-          </Toolbar>
-        </AppBar>
-      </Box>
-    </motion.div>
+    <Box sx={{ flexGrow: 1 }} className="">
+      <AppBar className=" bg-amber-200">
+        <Toolbar
+          sx={{ color: "inherit" }}
+          className="  flex justify-between text-black"
+        >
+          <div>
+            <Image
+              src={logo}
+              alt="Virtual Store Logo"
+              className=" font-[family-name:var(--font-open-sans)] font-bold text-lg h-12 w-24 bg-cover"
+            />
+          </div>
+          <MenuLink />
+          <SearchC>
+            <SearchIconWrapper>
+              <Search />
+            </SearchIconWrapper>
+            <StyledInputBase
+              placeholder="Search…"
+              inputProps={{ "aria-label": "search" }}
+            />
+          </SearchC>
+          <MenuButton />
+        </Toolbar>
+      </AppBar>
+    </Box>
   );
 }
