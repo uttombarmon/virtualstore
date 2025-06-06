@@ -1,4 +1,5 @@
 import { ProductCardI } from "@/types/ProductCard";
+import ProductCard from "./ProductCard";
 
 async function Products() {
   const datas = await fetch("/public/bestselling.json");
