@@ -1,3 +1,7 @@
+interface ProductImage {
+  url: string;
+  alt: string;
+}
 export interface ProductCardI {
   product_id: string;
   name: string;
@@ -8,4 +12,6 @@ export interface ProductCardI {
     comment: string;
   }[];
   currency: string;
+  images: ProductImage[];
+  brand: string;
 }

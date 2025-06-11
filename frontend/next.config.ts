@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "i.postimg.cc",
+        hostname: "**",
         pathname: "**", // Allows any path under this hostname
       },
       // Add more external image hosts here if needed

@@ -1,4 +1,5 @@
 import CusButton from "./Button";
+import Products from "./Products";
 
 function BestProducts() {
   return (
@@ -7,6 +8,7 @@ function BestProducts() {
         <p className=" text-3xl font-bold">Best Selling Products..</p>
         <CusButton />
       </div>
+      <Products />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import { Request, Response, Router } from "express";
 import apiProtect from "../../middleware/apiProtected";
-import ProductS from "../../models/Product";
+import { ProductS } from "../../models/Product";
 import PTypes from "../../types/PTypes";
 
 const routerProduct = Router();
@@ -17,6 +17,20 @@ routerProduct.post("/", async (req: Request, res: Response) => {
   } catch (error) {
     console.log("Product Insert:", error);
     res.status(500).json({ error: error });
+  }
+});
+
+//a product get api
+routerProduct.get("/", async (req: Request, res: Response) => {
+  try {
+    const product: PTypes[] | null = await ProductS.find();
+    if (!product || product === null) {
+      res.status(203).json({ error: "Not Found Data!" });
+    }
+    res.status(200).json({ product: product });
+  } catch (error) {
+    console.log("product get api:", error);
+    res.status(500).json({ error: "Internal Server Error!" });
   }
 });
 
